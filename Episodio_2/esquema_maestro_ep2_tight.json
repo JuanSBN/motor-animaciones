@@ -880,24 +880,12 @@
         },
         {
           "id_plano": 6,
-          "locucion_plano": "...es el único recuerdo que la evolución...",
+          "locucion_plano": "...es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
           "palabras_clave_plano": [
-            "único recuerdo"
-          ],
-          "duracion_frames": 80,
-          "animacion": "paneo_suave",
-          "punch_in": true,
-          "tipo_visual": "imagen_flux",
-          "imagen": "assets/img/ep2_escena_2_p5_a.png",
-          "descripcion": "Niko al borde del puente roto mirando al abismo violeta con asombro"
-        },
-        {
-          "id_plano": 7,
-          "locucion_plano": "...te tiene terminantemente prohibido guardar.",
-          "palabras_clave_plano": [
+            "único recuerdo",
             "terminantemente prohibido"
           ],
-          "duracion_frames": 86,
+          "duracion_frames": 166,
           "animacion": "zoom_in_suave",
           "punch_in": true,
           "tipo_visual": "imagen_flux",
