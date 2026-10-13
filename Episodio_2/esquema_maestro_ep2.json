@@ -6,7 +6,13 @@
     "duracion_total_frames": 9000,
     "volumen_musica": 0.1,
     "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
-    "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors"
+    "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors",
+    "sfx": {
+      "whoosh": "assets/sfx/whoosh.wav",
+      "pop": "assets/sfx/pop.wav",
+      "ding": "assets/sfx/ding.wav",
+      "volumen": 0.35
+    }
   },
   "escenas": [
     {
