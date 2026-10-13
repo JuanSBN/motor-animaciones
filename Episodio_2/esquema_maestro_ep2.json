@@ -1,0 +1,650 @@
+{
+  "metadata": {
+    "titulo": "Episodio 2: ¿Por Qué No Recuerdas Cuándo Te Quedas Dormido?",
+    "duracion_objetivo": "5:00",
+    "duracion_total_segundos": 300.0,
+    "duracion_total_frames": 9000,
+    "volumen_musica": 0.1,
+    "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
+    "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors"
+  },
+  "escenas": [
+    {
+      "id": 1,
+      "acto": 1,
+      "titulo_acto": "El Gran Vaciado Nocturno",
+      "locucion": "Seguro te ha pasado alguna vez. Estás acostado, mirando el techo a oscuras. Escuchas el reloj o el silencio de la casa y te dices a ti mismo: 'Esta noche voy a prestar atención. Voy a descubrir el segundo exacto en que me duermo'. Cierras los ojos, sientes la almohada, respiras hondo... y de repente suena la alarma. Ya es de día. Entre las once y media de la noche y las siete de la mañana hay un vacío absoluto. No viste venir el sueño, no sentiste el cambio y no recuerdas nada.",
+      "palabras_clave": [
+        "mirando el techo",
+        "prestar atención",
+        "suena la alarma",
+        "vacío absoluto"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Seguro te ha pasado alguna vez.",
+          "palabras_clave_plano": [
+            "Seguro te ha pasado"
+          ],
+          "duracion_frames": 63,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p1.png",
+          "descripcion": "Niko en la cama de noche mirando arriba pensativo"
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "Estás acostado, mirando el techo a oscuras.",
+          "palabras_clave_plano": [
+            "mirando el techo"
+          ],
+          "duracion_frames": 111,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_pov_techo.png",
+          "descripcion": "POV subjetivo mirando el techo a oscuras con sombras de árboles"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Escuchas el reloj o el silencio de la casa...",
+          "palabras_clave_plano": [
+            "Escuchas el reloj"
+          ],
+          "duracion_frames": 96,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_reloj_noche.png",
+          "descripcion": "Macro reloj analógico de noche marcando 11:42 PM"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "...y te dices a ti mismo: Esta noche voy a prestar atención.",
+          "palabras_clave_plano": [
+            "prestar atención"
+          ],
+          "duracion_frames": 135,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p2.png",
+          "descripcion": "Niko en pijama mirando de reojo al reloj con determinación cómica"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "Voy a descubrir el segundo exacto en que me duermo.",
+          "palabras_clave_plano": [
+            "segundo exacto"
+          ],
+          "duracion_frames": 111,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_ojos_alerta.png",
+          "descripcion": "Macro ojos de Niko hiper-enfocados en misión secreta"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "Cierras los ojos...",
+          "palabras_clave_plano": [
+            "Cierras los ojos"
+          ],
+          "duracion_frames": 69,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_cerrando_ojos.png",
+          "descripcion": "Macro párpados cerrándose lentamente en calma"
+        },
+        {
+          "id_plano": 7,
+          "locucion_plano": "...sientes la almohada, respiras hondo...",
+          "palabras_clave_plano": [
+            "sientes la almohada",
+            "respiras hondo"
+          ],
+          "duracion_frames": 93,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p3.png",
+          "descripcion": "Niko dormido plácidamente en la almohada"
+        },
+        {
+          "id_plano": 8,
+          "locucion_plano": "...y de repente suena la alarma!",
+          "palabras_clave_plano": [
+            "suena la alarma"
+          ],
+          "duracion_frames": 84,
+          "animacion": "sacudida",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_reloj_sonando.png",
+          "descripcion": "Macro alarma roja vibrando violentamente con campanas limpias"
+        },
+        {
+          "id_plano": 9,
+          "locucion_plano": "Ya es de día.",
+          "palabras_clave_plano": [
+            "Ya es de día"
+          ],
+          "duracion_frames": 36,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p4.png",
+          "descripcion": "Niko sentado sobresaltado en pijama con explosión de sol"
+        },
+        {
+          "id_plano": 10,
+          "locucion_plano": "Entre las once y media de la noche y las siete de la mañana...",
+          "palabras_clave_plano": [
+            "once y media",
+            "siete de la mañana"
+          ],
+          "duracion_frames": 120,
+          "animacion": "vectorial",
+          "tipo_visual": "componente_vectorial",
+          "componente": "SleepVoidTimeline",
+          "descripcion": "Infografía vectorial nítida en Remotion de la línea temporal 11:30 a 07:00"
+        },
+        {
+          "id_plano": 11,
+          "locucion_plano": "...hay un vacío absoluto.",
+          "palabras_clave_plano": [
+            "vacío absoluto"
+          ],
+          "duracion_frames": 63,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p5.png",
+          "descripcion": "Niko en pijama al borde de la cama rascándose la cabeza perplejo"
+        },
+        {
+          "id_plano": 12,
+          "locucion_plano": "No viste venir el sueño, no sentiste el cambio y no recuerdas nada.",
+          "palabras_clave_plano": [
+            "no recuerdas nada"
+          ],
+          "duracion_frames": 174,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_niko_desconcierto.png",
+          "descripcion": "Niko con brazos abiertos desconcertado a cámara"
+        },
+        {
+          "id_plano": 13,
+          "locucion_plano": "No es que te hayas distraído: tu cerebro tiene una orden biológica estricta de borrar ese momento cada noche.",
+          "palabras_clave_plano": [
+            "orden biológica",
+            "borrar ese momento"
+          ],
+          "duracion_frames": 225,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p6.png",
+          "descripcion": "Niko viendo el holograma del cerebro con candado rojo"
+        },
+        {
+          "id_plano": 14,
+          "locucion_plano": "¿Por qué?",
+          "palabras_clave_plano": [
+            "Por qué"
+          ],
+          "duracion_frames": 35,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_candado_zoom.png",
+          "descripcion": "Zoom dramático al candado del cerebro con signos ?"
+        }
+      ],
+      "duracion_segundos": 47.17,
+      "duracion_frames": 1415,
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_1.wav"
+      }
+    },
+    {
+      "id": 2,
+      "acto": 1,
+      "titulo_acto": "El Gran Vaciado Nocturno",
+      "locucion": "Si te tropiezas por la calle, tu mente recuerda el tropiezo. Si te quemas con una taza caliente, recuerdas el dolor al instante. Tu memoria es implacable registrando peligros y errores. Pero ese puente exacto entre estar despierto y estar inconsciente es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+      "palabras_clave": [
+        "recuerda el tropiezo",
+        "memoria implacable",
+        "único recuerdo",
+        "terminantemente prohibido"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Si te tropiezas por la calle, tu mente recuerda el tropiezo.",
+          "palabras_clave_plano": [
+            "recuerda el tropiezo"
+          ],
+          "duracion_frames": 120,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p1.png",
+          "descripcion": "Niko tropezándose cómicamente con una piedra en la acera"
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "Si te quemas con una taza caliente, recuerdas el dolor al instante.",
+          "palabras_clave_plano": [
+            "taza caliente",
+            "recuerdas el dolor"
+          ],
+          "duracion_frames": 135,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p2.png",
+          "descripcion": "Niko reaccionando cómicamente soplando una taza humeante"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Tu memoria es implacable registrando peligros y errores.",
+          "palabras_clave_plano": [
+            "memoria implacable",
+            "peligros y errores"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p3.png",
+          "descripcion": "Archivo mental con archivadores y esferas de alertas de peligro"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "Pero ese puente exacto entre estar despierto y estar inconsciente...",
+          "palabras_clave_plano": [
+            "puente exacto",
+            "estar despierto",
+            "inconsciente"
+          ],
+          "duracion_frames": 160,
+          "animacion": "paneo_suave",
+          "punch_in": true,
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p4.png",
+          "descripcion": "Puente neuronal luminoso cruzando hacia niebla violeta del sueño"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "...es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+          "palabras_clave_plano": [
+            "único recuerdo",
+            "terminantemente prohibido"
+          ],
+          "duracion_frames": 174,
+          "animacion": "zoom_in_suave",
+          "punch_in": true,
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p5.png",
+          "descripcion": "Niko al borde del puente mirando al vacío con candado holográfico de prohibición"
+        }
+      ],
+      "duracion_frames": 724,
+      "duracion_segundos": 24.13,
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_2.wav"
+      }
+    },
+    {
+      "id": 3,
+      "acto": 2,
+      "titulo_acto": "La Grabadora que se Apaga",
+      "locucion": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna: una estructura cerebral con forma de caballito de mar llamada Hipocampo. Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes, y lo va archivando en la memoria a corto plazo como una cámara de seguridad encendida las veinticuatro horas.",
+      "palabras_clave": [
+        "grabadora interna",
+        "Hipocampo",
+        "memoria a corto plazo",
+        "cámara de seguridad"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna: una estructura cerebral con forma de caballito de mar llamada Hipocampo...",
+          "palabras_clave_plano": [
+            "grabadora interna",
+            "Hipocampo"
+          ],
+          "duracion_frames": 130,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p1.png",
+          "prompt": "Stylized cartoon cross-section of a glowing human brain, highlighting a golden seahorse-shaped organ named hippocampus with a gentle friendly glow. Niko points at it with a scientific pointer stick. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes, y lo va archivando en la memoria a corto plazo como una cámara de seguridad encendida las veinticuatro horas.",
+          "palabras_clave_plano": [
+            "memoria a corto plazo",
+            "cámara de seguridad"
+          ],
+          "duracion_frames": 140,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p2.png",
+          "prompt": "Whimsical cartoon filing office inside the brain: cute little memory archivist workers organizing colorful glowing memory spheres into tall filing cabinets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "acto": 2,
+      "titulo_acto": "La Grabadora que se Apaga",
+      "locucion": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso: el hipocampo no se duerme al mismo tiempo que el resto del cuerpo. Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento. Imagina que una cámara de seguridad deja de grabar mientras las luces de la habitación todavía siguen encendidas. Durante esos minutos finales, estás despierto, pero nadie está guardando el archivo.",
+      "palabras_clave": [
+        "fenómeno asombroso",
+        "se apaga antes",
+        "deja de grabar",
+        "nadie está guardando"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso: el hipocampo no se duerme al mismo tiempo que el resto del cuerpo...",
+          "palabras_clave_plano": [
+            "fenómeno asombroso",
+            "hipocampo"
+          ],
+          "duracion_frames": 135,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p1.png",
+          "prompt": "Split laboratory visual: EEG brainwave sensors showing brain activity on digital monitors, while scientists in white coats observe a cartoon sleeping subject with fascinated expressions. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento. Durante esos minutos finales, estás despierto, pero nadie está guardando el archivo.",
+          "palabras_clave_plano": [
+            "se apaga antes",
+            "nadie está guardando"
+          ],
+          "duracion_frames": 150,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p2.png",
+          "prompt": "Humorous metaphor: an old-fashioned film projector or video recorder on a table, with its REC red light clicking OFF while Niko in bed is still looking around drowsily. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "acto": 3,
+      "titulo_acto": "La Cascada de la Conciencia",
+      "locucion": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente. Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+      "palabras_clave": [
+        "el Tálamo",
+        "estación de trenes",
+        "cierra las puertas",
+        "desconectó los cables"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente...",
+          "palabras_clave_plano": [
+            "el Tálamo",
+            "estación de trenes"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p1.png",
+          "prompt": "Futuristic cartoon central control tower inside the brain with glowing sensory pathways labeled by soundwaves, light rays, and touch signals arriving from outside. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+          "palabras_clave_plano": [
+            "cierra las puertas",
+            "desconectó los cables"
+          ],
+          "duracion_frames": 140,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p2.png",
+          "prompt": "Huge stylized vault doors closing smoothly with a soft golden mechanical lock, shutting off sensory signals. Niko watches with a peaceful smile as the outside noise fades away. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "acto": 3,
+      "titulo_acto": "La Cascada de la Conciencia",
+      "locucion": "En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta. Tus pensamientos pierden la lógica, tus músculos se relajan por completo y tu cerebro sufre una micro desconexión. Y si esa transición ocurre demasiado rápido, tu cuerpo interpreta erróneamente que te estás cayendo al vacío y lanza una sacudida violenta: la famosa sacudida hípnica.",
+      "palabras_clave": [
+        "fase N1",
+        "ondas Alfa",
+        "ondas Theta",
+        "sacudida hípnica"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta...",
+          "palabras_clave_plano": [
+            "fase N1",
+            "ondas Alfa",
+            "ondas Theta"
+          ],
+          "duracion_frames": 145,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p1.png",
+          "prompt": "Colorful educational diagram showing wavy rhythmic brainwave lines shifting smoothly from rapid electric blue waves to deep purple slow oceanic waves. Niko slides down a fun glowing slide between them. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Tus pensamientos pierden la lógica, tus músculos se relajan y si la transición es muy rápida, tu cuerpo cree que caes al vacío: la famosa sacudida hípnica.",
+          "palabras_clave_plano": [
+            "caes al vacío",
+            "sacudida hípnica"
+          ],
+          "duracion_frames": 145,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p2.png",
+          "prompt": "Comical dramatic shot: Niko dreaming he is falling off a cliff in space, suddenly twitching and kicking in bed in exaggerated cartoon surprise, clutching the blankets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Pero la pregunta más profunda sigue en pie: ¿Por qué la evolución construyó este sistema tan extraño? ¿Por qué no simplemente mantenernos conscientes hasta el último segundo? La respuesta no está en tu cómoda habitación moderna. Está hace cientos de miles de años, bajo las estrellas de la sabana africana.",
+      "palabras_clave": [
+        "evolución",
+        "sistema tan extraño",
+        "sabana africana",
+        "cientos de miles de años"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Pero la pregunta más profunda sigue en pie: ¿Por qué la evolución construyó este sistema tan extraño? ¿Por qué no simplemente mantenernos conscientes hasta el último segundo?...",
+          "palabras_clave_plano": [
+            "evolución",
+            "sistema tan extraño"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_7_p1.png",
+          "prompt": "Niko standing under a starry night sky, holding a warm wooden walking staff, looking curiously towards the distant horizon. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...La respuesta no está en tu cómoda habitación moderna. Está hace cientos de miles de años, bajo las estrellas de la sabana africana.",
+          "palabras_clave_plano": [
+            "habitación moderna",
+            "sabana africana"
+          ],
+          "duracion_frames": 135,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_7_p2.png",
+          "prompt": "Cinematic wide transition shot: the modern bedroom wall dissolves into a sweeping prehistoric African savannah landscape at night under a giant glowing moon and thousands of stars. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Para nuestros primeros ancestros, la noche era el momento más peligroso de la existencia. Era la hora de caza de felinos con visión nocturna, hienas gigantes y serpientes venenosas. Si un homínido sentía conscientemente cómo sus músculos se paralizaban uno por uno, el instinto natural habría sido el pánico: gritar, resistirse, moverse y delatar la posición de toda la tribu ante los depredadores.",
+      "palabras_clave": [
+        "momento más peligroso",
+        "visión nocturna",
+        "depredadores",
+        "instinto de pánico"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Para nuestros primeros ancestros, la noche era el momento más peligroso de la existencia. Era la hora de caza de felinos con visión nocturna, hienas gigantes y serpientes venenosas...",
+          "palabras_clave_plano": [
+            "momento más peligroso",
+            "visión nocturna"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_8_p1.png",
+          "prompt": "A tribe of prehistoric humans huddled closely around a crackling campfire in a rock shelter at night, while yellow glowing predator eyes peer from the dark tall grass in the background. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Si un homínido sentía conscientemente cómo sus músculos se paralizaban, el instinto habría sido el pánico: gritar, resistirse y delatar a toda la tribu ante los depredadores.",
+          "palabras_clave_plano": [
+            "músculos se paralizaban",
+            "instinto de pánico"
+          ],
+          "duracion_frames": 140,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_8_p2.png",
+          "prompt": "Dramatic close-up of a prehistoric human sleeping peacefully beside the fire without flinching, protected by the silence of the night. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Además, los humanos nunca dormíamos ocho horas seguidas como hoy. Existía el Sueño de los Centinelas: en una tribu primitiva de veinte personas, los ancianos, jóvenes y adultos tenían relojes biológicos distintos. Siempre había alguien despierto vigilando el fuego y turnándose para descansar. Borrar el momento de transición permitía que el relevo fuera silencioso, rápido e imperceptible.",
+      "palabras_clave": [
+        "ocho horas seguidas",
+        "Sueño de los Centinelas",
+        "relojes biológicos",
+        "vigilando el fuego"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Además, los humanos nunca dormíamos ocho horas seguidas como hoy. Existía el Sueño de los Centinelas: en una tribu de veinte personas, todos tenían relojes biológicos distintos...",
+          "palabras_clave_plano": [
+            "ocho horas seguidas",
+            "Sueño de los Centinelas"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_9_p1.png",
+          "prompt": "A wise elder caveman sitting vigilantly beside the glowing embers of a night fire holding a torch, while other members of the tribe sleep peacefully wrapped in animal pelts. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Siempre había alguien despierto vigilando el fuego y turnándose para descansar. Borrar el momento de transición permitía que el relevo fuera silencioso, rápido e imperceptible.",
+          "palabras_clave_plano": [
+            "vigilando el fuego",
+            "relevo silencioso"
+          ],
+          "duracion_frames": 140,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_9_p2.png",
+          "prompt": "Smooth change of watch: a young hunter gently taking over the watch by the campfire under the starry canopy, peaceful nocturnal atmosphere. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "acto": 5,
+      "titulo_acto": "El Regalo del Olvido",
+      "locucion": "Al final, no poder recordar el segundo en que te duermes no es una falla de tu memoria. Es una obra maestra de la evolución humana: una cápsula de anestesia natural que tu cerebro administra cada noche para protegerte de la vulnerabilidad, silenciar tus sentidos y permitirte reiniciar tu mente para un nuevo día.",
+      "palabras_clave": [
+        "no es una falla",
+        "obra maestra",
+        "anestesia natural",
+        "reiniciar tu mente"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Al final, no poder recordar el segundo en que te duermes no es una falla de tu memoria. Es una obra maestra de la evolución humana...",
+          "palabras_clave_plano": [
+            "no es una falla",
+            "obra maestra"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_10_p1.png",
+          "prompt": "Beautiful symbolic illustration of human consciousness: glowing soft starry constellations forming the shape of a serene sleeping human silhouette. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...una cápsula de anestesia natural que tu cerebro administra cada noche para protegerte de la vulnerabilidad, silenciar tus sentidos y permitirte reiniciar tu mente para un nuevo día.",
+          "palabras_clave_plano": [
+            "anestesia natural",
+            "reiniciar tu mente"
+          ],
+          "duracion_frames": 145,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_10_p2.png",
+          "prompt": "Boy Niko in his cozy bed with a warm happy smile, sleeping peacefully under soft blankets with gentle breathing rhythm. Moonlight through the window, soothing peaceful atmosphere. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "acto": 5,
+      "titulo_acto": "El Regalo del Olvido",
+      "locucion": "Así que esta noche, cuando apoyes la cabeza en la almohada y sientas que tus pensamientos empiezan a flotar... no intentes atraparlo. Déjate llevar por el apagón. Porque mientras tú descansas, millones de años de evolución están cuidando de ti.",
+      "palabras_clave": [
+        "apoyes la cabeza",
+        "no intentes atraparlo",
+        "déjate llevar",
+        "millones de años"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Así que esta noche, cuando apoyes la cabeza en la almohada y sientas que tus pensamientos empiezan a flotar... no intentes atraparlo. Déjate llevar por el apagón...",
+          "palabras_clave_plano": [
+            "apoyes la cabeza",
+            "déjate llevar"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_11_p1.png",
+          "prompt": "Boy Niko looking out his bedroom window at the glowing full moon with a thoughtful appreciative smile, ready to rest. Messy teal hair, green vest. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Porque mientras tú descansas, millones de años de evolución están cuidando de ti.",
+          "palabras_clave_plano": [
+            "mientras tú descansas",
+            "cuidando de ti"
+          ],
+          "duracion_frames": 145,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_11_p2.png",
+          "prompt": "Warm heartwarming closing shot of Niko in bed smiling with his thumb up, drifting off into peaceful dreams with dreamy floating stars and soothing night clouds. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    }
+  ]
+}

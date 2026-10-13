@@ -1,0 +1,32 @@
+# Node.js dependencies
+**/node_modules/
+
+# Remotion & Video render exports
+**/out/
+*.mp4
+*.mkv
+*.mov
+**/debug_frames/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+.venv/
+venv/
+env/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo

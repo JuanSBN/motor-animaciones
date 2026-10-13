@@ -1,0 +1,498 @@
+{
+  "text": " Si te tropiezas por la calle, tu mente recuerda al tropieso. Si te quemas con una tasa caliente, recuerdas el dolor al instante. Tu memoria es implacable, registrando peligros y errores. Pero ese puente exacto, entre estar despierto y estar inconsciente, es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.88,
+      "text": " Si te tropiezas por la calle, tu mente recuerda al tropieso.",
+      "tokens": [
+        50364,
+        4909,
+        535,
+        9006,
+        18812,
+        296,
+        1515,
+        635,
+        45092,
+        11,
+        2604,
+        26577,
+        39092,
+        2675,
+        419,
+        9006,
+        530,
+        78,
+        13,
+        50566
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23587141036987305,
+      "compression_ratio": 1.5868544600938967,
+      "no_speech_prob": 0.020392265170812607,
+      "words": [
+        {
+          "word": " Si",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.7884698510169983
+        },
+        {
+          "word": " te",
+          "start": 0.42,
+          "end": 0.56,
+          "probability": 0.9914860129356384
+        },
+        {
+          "word": " tropiezas",
+          "start": 0.56,
+          "end": 1.1,
+          "probability": 0.7444468438625336
+        },
+        {
+          "word": " por",
+          "start": 1.1,
+          "end": 1.3,
+          "probability": 0.9933453798294067
+        },
+        {
+          "word": " la",
+          "start": 1.3,
+          "end": 1.44,
+          "probability": 0.9903916120529175
+        },
+        {
+          "word": " calle,",
+          "start": 1.44,
+          "end": 1.72,
+          "probability": 0.9926632642745972
+        },
+        {
+          "word": " tu",
+          "start": 2.16,
+          "end": 2.22,
+          "probability": 0.8705745339393616
+        },
+        {
+          "word": " mente",
+          "start": 2.22,
+          "end": 2.44,
+          "probability": 0.9964810609817505
+        },
+        {
+          "word": " recuerda",
+          "start": 2.44,
+          "end": 3.22,
+          "probability": 0.9950727224349976
+        },
+        {
+          "word": " al",
+          "start": 3.22,
+          "end": 3.32,
+          "probability": 0.48332980275154114
+        },
+        {
+          "word": " tropieso.",
+          "start": 3.32,
+          "end": 3.88,
+          "probability": 0.7211658259232839
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.36,
+      "end": 8.36,
+      "text": " Si te quemas con una tasa caliente, recuerdas el dolor al instante.",
+      "tokens": [
+        50566,
+        4909,
+        535,
+        13026,
+        296,
+        416,
+        2002,
+        8023,
+        64,
+        2104,
+        8413,
+        11,
+        39092,
+        27476,
+        806,
+        42416,
+        419,
+        1058,
+        2879,
+        13,
+        50794
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23587141036987305,
+      "compression_ratio": 1.5868544600938967,
+      "no_speech_prob": 0.020392265170812607,
+      "words": [
+        {
+          "word": " Si",
+          "start": 4.36,
+          "end": 4.52,
+          "probability": 0.9927575588226318
+        },
+        {
+          "word": " te",
+          "start": 4.52,
+          "end": 4.68,
+          "probability": 0.998974084854126
+        },
+        {
+          "word": " quemas",
+          "start": 4.68,
+          "end": 5.0,
+          "probability": 0.7160657048225403
+        },
+        {
+          "word": " con",
+          "start": 5.0,
+          "end": 5.18,
+          "probability": 0.9968574047088623
+        },
+        {
+          "word": " una",
+          "start": 5.18,
+          "end": 5.34,
+          "probability": 0.979015052318573
+        },
+        {
+          "word": " tasa",
+          "start": 5.34,
+          "end": 5.6,
+          "probability": 0.7782669365406036
+        },
+        {
+          "word": " caliente,",
+          "start": 5.6,
+          "end": 6.14,
+          "probability": 0.9906322956085205
+        },
+        {
+          "word": " recuerdas",
+          "start": 6.56,
+          "end": 7.08,
+          "probability": 0.8624181747436523
+        },
+        {
+          "word": " el",
+          "start": 7.08,
+          "end": 7.28,
+          "probability": 0.995536208152771
+        },
+        {
+          "word": " dolor",
+          "start": 7.28,
+          "end": 7.48,
+          "probability": 0.9965721368789673
+        },
+        {
+          "word": " al",
+          "start": 7.48,
+          "end": 7.7,
+          "probability": 0.919061005115509
+        },
+        {
+          "word": " instante.",
+          "start": 7.7,
+          "end": 8.36,
+          "probability": 0.9897928833961487
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.9,
+      "end": 12.78,
+      "text": " Tu memoria es implacable, registrando peligros y errores.",
+      "tokens": [
+        50794,
+        7836,
+        1334,
+        8172,
+        785,
+        8484,
+        326,
+        712,
+        11,
+        11376,
+        19845,
+        43839,
+        2635,
+        288,
+        45935,
+        495,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23587141036987305,
+      "compression_ratio": 1.5868544600938967,
+      "no_speech_prob": 0.020392265170812607,
+      "words": [
+        {
+          "word": " Tu",
+          "start": 8.9,
+          "end": 9.08,
+          "probability": 0.889542281627655
+        },
+        {
+          "word": " memoria",
+          "start": 9.08,
+          "end": 9.48,
+          "probability": 0.9976980090141296
+        },
+        {
+          "word": " es",
+          "start": 9.48,
+          "end": 9.72,
+          "probability": 0.9930371642112732
+        },
+        {
+          "word": " implacable,",
+          "start": 9.72,
+          "end": 10.64,
+          "probability": 0.9292056957880656
+        },
+        {
+          "word": " registrando",
+          "start": 10.86,
+          "end": 11.38,
+          "probability": 0.9837918281555176
+        },
+        {
+          "word": " peligros",
+          "start": 11.38,
+          "end": 12.0,
+          "probability": 0.9879059791564941
+        },
+        {
+          "word": " y",
+          "start": 12.0,
+          "end": 12.32,
+          "probability": 0.9887235164642334
+        },
+        {
+          "word": " errores.",
+          "start": 12.32,
+          "end": 12.78,
+          "probability": 0.9961324036121368
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.3,
+      "end": 18.02,
+      "text": " Pero ese puente exacto, entre estar despierto y estar inconsciente,",
+      "tokens": [
+        51014,
+        9377,
+        10167,
+        2362,
+        1576,
+        1900,
+        78,
+        11,
+        3962,
+        8755,
+        4887,
+        20747,
+        288,
+        8755,
+        22039,
+        537,
+        1576,
+        11,
+        51276
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23587141036987305,
+      "compression_ratio": 1.5868544600938967,
+      "no_speech_prob": 0.020392265170812607,
+      "words": [
+        {
+          "word": " Pero",
+          "start": 13.3,
+          "end": 13.6,
+          "probability": 0.9930174350738525
+        },
+        {
+          "word": " ese",
+          "start": 13.6,
+          "end": 13.84,
+          "probability": 0.9763433337211609
+        },
+        {
+          "word": " puente",
+          "start": 13.84,
+          "end": 14.4,
+          "probability": 0.9777081608772278
+        },
+        {
+          "word": " exacto,",
+          "start": 14.4,
+          "end": 15.38,
+          "probability": 0.8672121167182922
+        },
+        {
+          "word": " entre",
+          "start": 15.58,
+          "end": 15.78,
+          "probability": 0.9490202069282532
+        },
+        {
+          "word": " estar",
+          "start": 15.78,
+          "end": 16.06,
+          "probability": 0.9404056072235107
+        },
+        {
+          "word": " despierto",
+          "start": 16.06,
+          "end": 16.76,
+          "probability": 0.8514022529125214
+        },
+        {
+          "word": " y",
+          "start": 16.76,
+          "end": 17.08,
+          "probability": 0.985022246837616
+        },
+        {
+          "word": " estar",
+          "start": 17.08,
+          "end": 17.3,
+          "probability": 0.9701776504516602
+        },
+        {
+          "word": " inconsciente,",
+          "start": 17.3,
+          "end": 18.02,
+          "probability": 0.9543560743331909
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.58,
+      "end": 23.76,
+      "text": " es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+      "tokens": [
+        51276,
+        785,
+        806,
+        26113,
+        850,
+        22412,
+        631,
+        635,
+        7117,
+        30813,
+        535,
+        7066,
+        10761,
+        394,
+        16288,
+        16015,
+        2925,
+        6290,
+        289,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23587141036987305,
+      "compression_ratio": 1.5868544600938967,
+      "no_speech_prob": 0.020392265170812607,
+      "words": [
+        {
+          "word": " es",
+          "start": 18.58,
+          "end": 18.7,
+          "probability": 0.9972622394561768
+        },
+        {
+          "word": " el",
+          "start": 18.7,
+          "end": 18.88,
+          "probability": 0.9878515601158142
+        },
+        {
+          "word": " único",
+          "start": 18.88,
+          "end": 19.26,
+          "probability": 0.9664969444274902
+        },
+        {
+          "word": " recuerdo",
+          "start": 19.26,
+          "end": 20.0,
+          "probability": 0.9795920252799988
+        },
+        {
+          "word": " que",
+          "start": 20.0,
+          "end": 20.14,
+          "probability": 0.9937792420387268
+        },
+        {
+          "word": " la",
+          "start": 20.14,
+          "end": 20.28,
+          "probability": 0.9978852868080139
+        },
+        {
+          "word": " evolución",
+          "start": 20.28,
+          "end": 20.72,
+          "probability": 0.9848968088626862
+        },
+        {
+          "word": " te",
+          "start": 20.72,
+          "end": 20.94,
+          "probability": 0.9533380270004272
+        },
+        {
+          "word": " tiene",
+          "start": 20.94,
+          "end": 21.18,
+          "probability": 0.994536817073822
+        },
+        {
+          "word": " terminantemente",
+          "start": 21.18,
+          "end": 22.4,
+          "probability": 0.8048214316368103
+        },
+        {
+          "word": " prohibido",
+          "start": 22.4,
+          "end": 23.28,
+          "probability": 0.9001751244068146
+        },
+        {
+          "word": " guardar.",
+          "start": 23.28,
+          "end": 23.76,
+          "probability": 0.9862132668495178
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}
