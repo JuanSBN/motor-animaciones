@@ -205,10 +205,10 @@
             "borrar ese momento"
           ],
           "duracion_frames": 111,
-          "animacion": "paneo_suave",
+          "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
-          "imagen": "assets/img/ep2_escena_1_p13_a.png",
-          "descripcion": "Cerebro holográfico con interruptor biológico apagando circuitos"
+          "imagen": "assets/img/ep2_escena_1_candado_zoom.png",
+          "descripcion": "Detalle macro del candado biológico bloqueando el recuerdo"
         },
         {
           "id_plano": 16,
@@ -815,30 +815,18 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "Si te tropiezas por la calle...",
-          "palabras_clave_plano": [
-            "tropiezas"
-          ],
-          "duracion_frames": 60,
-          "animacion": "paneo_suave",
-          "tipo_visual": "imagen_flux",
-          "imagen": "assets/img/ep2_escena_2_p1_a.png",
-          "descripcion": "Niko caminando despreocupado por la calle soleada silbando"
-        },
-        {
-          "id_plano": 2,
-          "locucion_plano": "...tu mente recuerda el tropiezo.",
+          "locucion_plano": "Si te tropiezas por la calle, tu mente recuerda el tropiezo.",
           "palabras_clave_plano": [
             "recuerda el tropiezo"
           ],
-          "duracion_frames": 63,
+          "duracion_frames": 123,
           "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_2_p1.png",
           "descripcion": "Niko tropezándose cómicamente con una piedra en la acera"
         },
         {
-          "id_plano": 3,
+          "id_plano": 2,
           "locucion_plano": "Si te quemas con una taza caliente, recuerdas el dolor al instante.",
           "palabras_clave_plano": [
             "taza caliente",
@@ -851,31 +839,20 @@
           "descripcion": "Niko reaccionando cómicamente soplando una taza humeante"
         },
         {
-          "id_plano": 4,
-          "locucion_plano": "Tu memoria es implacable...",
+          "id_plano": 3,
+          "locucion_plano": "Tu memoria es implacable registrando peligros y errores.",
           "palabras_clave_plano": [
-            "memoria implacable"
-          ],
-          "duracion_frames": 60,
-          "animacion": "zoom_in_suave",
-          "tipo_visual": "imagen_flux",
-          "imagen": "assets/img/ep2_escena_2_p3_a.png",
-          "descripcion": "Archivo mental futurista con etiquetas de precaución y hologramas"
-        },
-        {
-          "id_plano": 5,
-          "locucion_plano": "...registrando peligros y errores.",
-          "palabras_clave_plano": [
+            "memoria implacable",
             "peligros y errores"
           ],
-          "duracion_frames": 63,
-          "animacion": "paneo_suave",
+          "duracion_frames": 123,
+          "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_2_p3.png",
           "descripcion": "Archivo mental con archivadores y esferas de alertas de peligro"
         },
         {
-          "id_plano": 6,
+          "id_plano": 4,
           "locucion_plano": "Pero ese puente exacto entre estar despierto...",
           "palabras_clave_plano": [
             "puente exacto",
@@ -889,7 +866,7 @@
           "descripcion": "Vista panorámica del borde de la ciudad consciente sobre el abismo de sueños"
         },
         {
-          "id_plano": 7,
+          "id_plano": 5,
           "locucion_plano": "...y estar inconsciente...",
           "palabras_clave_plano": [
             "inconsciente"
@@ -902,7 +879,7 @@
           "descripcion": "Puente neuronal luminoso cruzando hacia niebla violeta del sueño"
         },
         {
-          "id_plano": 8,
+          "id_plano": 6,
           "locucion_plano": "...es el único recuerdo que la evolución...",
           "palabras_clave_plano": [
             "único recuerdo"
@@ -915,7 +892,7 @@
           "descripcion": "Niko al borde del puente roto mirando al abismo violeta con asombro"
         },
         {
-          "id_plano": 9,
+          "id_plano": 7,
           "locucion_plano": "...te tiene terminantemente prohibido guardar.",
           "palabras_clave_plano": [
             "terminantemente prohibido"

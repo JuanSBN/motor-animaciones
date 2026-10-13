@@ -121,15 +121,15 @@ export const WordCaptions: React.FC<WordCaptionsProps> = ({
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          gap: "0 18px",
-          maxWidth: "80%",
+          gap: "8px 28px",
+          maxWidth: "85%",
           transform: `scale(${escalaGrupo})`,
           fontFamily: "'Montserrat', 'Arial Black', 'Segoe UI', sans-serif",
           fontWeight: 900,
           fontSize: FONT_SIZE,
           lineHeight: 1.15,
           textTransform: "uppercase",
-          letterSpacing: 0.5,
+          letterSpacing: 1.0,
         }}
       >
         {grupo.palabras.map((p, i) => {
@@ -141,11 +141,12 @@ export const WordCaptions: React.FC<WordCaptionsProps> = ({
               key={`${p.s}-${i}`}
               style={{
                 color,
-                WebkitTextStroke: "10px #0B0B12",
+                WebkitTextStroke: "8px #0B0B12",
                 paintOrder: "stroke fill",
                 textShadow: "0 6px 0 rgba(0,0,0,0.55)",
-                transform: `scale(${activa ? 1.08 : 1})`,
+                transform: `scale(${activa ? 1.06 : 1})`,
                 display: "inline-block",
+                margin: "0 4px",
               }}
             >
               {p.w.trim()}

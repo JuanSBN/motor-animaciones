@@ -179,9 +179,9 @@ export const Scene: React.FC<SceneProps> = ({ scene, episodeId = 1, sfx }) => {
     );
   };
 
-  const volumenSfx = sfx?.volumen ?? 0.35;
+  const volumenSfx = sfx?.volumen ?? 0.20;
   const sfxPorPlano = (p: Plano, i: number) => {
-    const tipo = p.sfx ?? (i === 0 ? "ninguno" : p.animacion === "sacudida" ? "pop" : "whoosh");
+    const tipo = p.sfx ?? (p.animacion === "sacudida" ? "pop" : "ninguno");
     if (tipo === "ninguno") return null;
     return sfx?.[tipo] ?? null;
   };
