@@ -2,9 +2,12 @@ import React from "react";
 import {
   Img,
   Audio,
+  Sequence,
   staticFile,
   useCurrentFrame,
+  useVideoConfig,
   interpolate,
+  Easing,
 } from "remotion";
 import { DnaPieChart } from "./components/DnaPieChart";
 import { ThermostatGauge } from "./components/ThermostatGauge";
@@ -13,6 +16,7 @@ import { SkinToneTimeline } from "./components/SkinToneTimeline";
 import { BalanceScale } from "./components/BalanceScale";
 import { KineticOverlay } from "./components/KineticOverlay";
 import { SleepVoidTimeline } from "./components/SleepVoidTimeline";
+import { WordCaptions, Palabra } from "./components/WordCaptions";
 
 interface Plano {
   id_plano: number;
@@ -22,12 +26,18 @@ interface Plano {
   punch_in?: boolean;
   duracion_frames: number;
   animacion?: string;
-  prompt?: string;
   locucion_plano?: string;
   palabras_clave_plano?: string[];
+  sfx?: "whoosh" | "ding" | "pop" | "ninguno";
 }
 
-// Registro dinámico de infografías científicas vectoriales
+export interface SfxConfig {
+  whoosh?: string;
+  ding?: string;
+  pop?: string;
+  volumen?: number;
+}
+
 const COMPONENT_REGISTRY: Record<string, React.FC> = {
   BalanceScale,
   DnaPieChart,
@@ -37,233 +47,192 @@ const COMPONENT_REGISTRY: Record<string, React.FC> = {
   SleepVoidTimeline,
 };
 
+// Ningún encuadre debe quedarse más de ~3.5 s: los planos largos se parten en "beats" de cámara.
+const BEAT_FRAMES = 105;
+const UMBRAL_REENCUADRE = 135;
+const KINETIC_SCALE = 1.7;
+
+interface Encuadre {
+  s0: number;
+  s1: number;
+  ox: number;
+  oy: number;
+  dx: number;
+}
+
+const ENCUADRES: Encuadre[] = [
+  { s0: 1.0, s1: 1.06, ox: 50, oy: 50, dx: -14 },
+  { s0: 1.22, s1: 1.28, ox: 35, oy: 40, dx: 18 },
+  { s0: 1.12, s1: 1.18, ox: 65, oy: 45, dx: -18 },
+  { s0: 1.3, s1: 1.36, ox: 50, oy: 35, dx: 0 },
+];
+
 interface SceneProps {
   episodeId?: number;
+  sfx?: SfxConfig;
   scene: {
     id: number;
-    acto?: number;
     locucion: string;
     palabras_clave?: string[];
-    archivos_generados: {
-      audio_tts: string;
-      imagen_flux?: string;
-    };
+    palabras?: Palabra[];
+    archivos_generados: { audio_tts: string; imagen_flux?: string };
     duracion_frames: number;
     planos?: Plano[];
   };
 }
 
-export const Scene: React.FC<SceneProps> = ({ scene, episodeId = 1 }) => {
+interface PlanoActivo {
+  plano?: Plano;
+  inicio: number;
+  frameEnPlano: number;
+  total: number;
+}
+
+function resolverPlano(scene: SceneProps["scene"], frame: number): PlanoActivo {
+  const planos = scene.planos ?? [];
+  if (planos.length === 0) {
+    return { inicio: 0, frameEnPlano: frame, total: scene.duracion_frames };
+  }
+  let acumulado = 0;
+  for (const plano of planos) {
+    const dur = plano.duracion_frames || Math.floor(scene.duracion_frames / planos.length);
+    if (frame < acumulado + dur) {
+      return { plano, inicio: acumulado, frameEnPlano: frame - acumulado, total: dur };
+    }
+    acumulado += dur;
+  }
+  const ultimo = planos[planos.length - 1];
+  const dur = ultimo.duracion_frames || 30;
+  return { plano: ultimo, inicio: acumulado - dur, frameEnPlano: frame - (acumulado - dur), total: dur };
+}
+
+function calcularCamara(animacion: string, frameEnPlano: number, total: number, idPlano: number, fps: number) {
+  // Si el último beat quedaría por debajo de 1.5 s se fusiona con el anterior para evitar cortes bruscos.
+  const numBeats = total > UMBRAL_REENCUADRE ? Math.max(1, Math.round(total / BEAT_FRAMES)) : 1;
+  const beatLen = total / numBeats;
+  const beatReal = Math.min(numBeats - 1, Math.floor(frameEnPlano / beatLen));
+  const inicioReal = Math.round(beatReal * beatLen);
+  const finReal = Math.round((beatReal + 1) * beatLen);
+
+  const enc = ENCUADRES[(idPlano + beatReal) % ENCUADRES.length];
+  const f = frameEnPlano - inicioReal;
+  const len = Math.max(1, finReal - inicioReal);
+
+  let scale = interpolate(f, [0, len], [enc.s0, enc.s1], {
+    extrapolateRight: "clamp",
+    easing: Easing.inOut(Easing.quad),
+  });
+  let tx = interpolate(f, [0, len], [0, enc.dx], { extrapolateRight: "clamp" });
+  let ty = 0;
+  let rot = 0;
+
+  if (animacion === "paneo_suave") {
+    scale = Math.max(scale, 1.08);
+    tx = interpolate(f, [0, len], [enc.dx >= 0 ? -30 : 30, enc.dx >= 0 ? 30 : -30], {
+      extrapolateRight: "clamp",
+    });
+  } else if (animacion === "flotar_suave") {
+    ty = Math.sin((frameEnPlano / fps) * Math.PI) * 8;
+  } else if (animacion === "sacudida") {
+    const decay = interpolate(frameEnPlano, [0, 18], [1, 0], { extrapolateRight: "clamp" });
+    tx += Math.sin(frameEnPlano * 2.3) * 22 * decay;
+    ty += Math.cos(frameEnPlano * 2.9) * 14 * decay;
+    rot = Math.sin(frameEnPlano * 1.7) * 1.4 * decay;
+    scale = Math.max(scale, 1.06);
+  }
+
+  // Punch-in de entrada: los primeros frames del plano arrancan un 4 % más cerca y se asientan.
+  const settle = interpolate(f, [0, 8], [0.04, 0], {
+    extrapolateRight: "clamp",
+    easing: Easing.out(Easing.cubic),
+  });
+
+  return {
+    transform: `translate(${tx}px, ${ty}px) rotate(${rot}deg) scale(${scale + settle})`,
+    transformOrigin: `${enc.ox}% ${enc.oy}%`,
+  };
+}
+
+export const Scene: React.FC<SceneProps> = ({ scene, episodeId = 1, sfx }) => {
   const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const { plano, inicio, frameEnPlano, total } = resolverPlano(scene, frame);
 
-  // Selección dinámica de plano actual
-  let activeImage = scene.archivos_generados.imagen_flux || "";
-  let activePlanoId = 1;
-  let shotFrame = frame;
-  let shotTotalFrames = scene.duracion_frames;
-  let animationType = "zoom_in_suave";
-  let activePlanoObj: Plano | undefined;
+  const idPlano = plano?.id_plano ?? 1;
+  const imagen = plano?.imagen || scene.archivos_generados.imagen_flux || "";
+  const animacion = plano?.animacion || "zoom_in_suave";
+  const camara = calcularCamara(animacion, frameEnPlano, total, idPlano, fps);
 
-  if (scene.planos && scene.planos.length > 0) {
-    let accumulated = 0;
-    for (const plano of scene.planos) {
-      const pDur = plano.duracion_frames || Math.floor(scene.duracion_frames / scene.planos.length);
-      if (frame >= accumulated && frame < accumulated + pDur) {
-        activeImage = plano.imagen || "";
-        activePlanoId = plano.id_plano;
-        activePlanoObj = plano;
-        shotFrame = frame - accumulated;
-        shotTotalFrames = pDur;
-        animationType = plano.animacion || "zoom_in_suave";
-        break;
-      }
-      accumulated += pDur;
+  const renderVisual = () => {
+    if (plano?.componente && COMPONENT_REGISTRY[plano.componente]) {
+      const Componente = COMPONENT_REGISTRY[plano.componente];
+      return <Componente />;
     }
-    if (!activePlanoObj && scene.planos.length > 0) {
-      const last = scene.planos[scene.planos.length - 1];
-      activeImage = last.imagen || "";
-      activePlanoId = last.id_plano;
-      activePlanoObj = last;
-      shotFrame = Math.max(0, frame - (accumulated - (last.duracion_frames || 30)));
-      shotTotalFrames = last.duracion_frames || 30;
-      animationType = last.animacion || "zoom_in_suave";
-    }
-  }
-
-  // --- MOVIMIENTO DE CÁMARA DINÁMICO Y EQUILIBRADO ---
-  let scale = 1.0;
-  let translateX = 0;
-
-  const isLongShot = shotTotalFrames > 165; // Más de 5.5s
-  const punchBoost = (activePlanoObj?.punch_in || isLongShot)
-    ? interpolate(shotFrame, [Math.floor(shotTotalFrames * 0.45), Math.floor(shotTotalFrames * 0.45) + 10], [0, 0.07], {
-        extrapolateLeft: "clamp",
-        extrapolateRight: "clamp",
-      })
-    : 0;
-
-  if (animationType === "paneo_suave") {
-    scale = 1.06 + punchBoost;
-    translateX = interpolate(shotFrame, [0, Math.max(1, shotTotalFrames)], [0, -28], {
-      extrapolateRight: "clamp",
-    });
-  } else if (animationType === "flotar_suave") {
-    scale = interpolate(Math.sin((shotFrame / 30) * Math.PI), [-1, 1], [1.02, 1.06]) + punchBoost;
-  } else {
-    // Zoom in continuo y cinematográfico con refuerzo dinámico para planos largos
-    scale = interpolate(shotFrame, [0, Math.max(1, shotTotalFrames)], [1.0, 1.07], {
-      extrapolateRight: "clamp",
-    }) + punchBoost;
-    translateX = interpolate(shotFrame, [0, Math.max(1, shotTotalFrames)], [0, -14], {
-      extrapolateRight: "clamp",
-    });
-  }
-
-  const audioSrc = staticFile(scene.archivos_generados.audio_tts);
-  const imageSrc = activeImage ? staticFile(activeImage) : "";
-
-  // Renderizado del contenido visual principal
-  const renderVisualContent = () => {
-    // 1. Registro declarativo dinámico (para nuevos episodios automáticos)
-    if (activePlanoObj?.componente && COMPONENT_REGISTRY[activePlanoObj.componente]) {
-      const DynamicComponent = COMPONENT_REGISTRY[activePlanoObj.componente];
-      return <DynamicComponent />;
-    }
-
-    // 2. Fallback de compatibilidad retroactiva por IDs
-    if (scene.id === 11 && activePlanoId === 1) {
-      return <SkinToneTimeline />;
-    }
-    if (scene.id === 16 && activePlanoId === 2) {
-      return <DnaPieChart />;
-    }
-    if (scene.id === 12 && activePlanoId === 1) {
-      return <ThermostatGauge />;
-    }
-    if (scene.id === 14 && activePlanoId === 1) {
-      return <BalanceScale />;
-    }
-    if (scene.id === 17 && activePlanoId === 1) {
-      return <RaceStampCard />;
-    }
-
-    // Ilustración FLUX 2D limpia con cámara cinemática continua
+    if (!imagen) return null;
     return (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          position: "absolute",
-          inset: 0,
-        }}
-      >
+      <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
         <Img
-          src={imageSrc}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            transform: `scale(${scale}) translateX(${translateX}px)`,
-          }}
+          src={staticFile(imagen)}
+          style={{ width: "100%", height: "100%", objectFit: "cover", ...camara }}
         />
       </div>
     );
   };
 
-  // Subtítulo dinámico sincronizado por plano
-  const renderSubtitle = () => {
-    const text = activePlanoObj?.locucion_plano || scene.locucion;
-    const keywords = activePlanoObj?.palabras_clave_plano || scene.palabras_clave || [];
-    if (!keywords || keywords.length === 0) return text;
-
-    const sortedKeywords = [...keywords].sort((a, b) => b.length - a.length);
-    const escaped = sortedKeywords.map((k) =>
-      k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-    );
-    const regex = new RegExp(`(${escaped.join("|")})`, "gi");
-
-    const parts = text.split(regex);
-    return parts.map((part, i) => {
-      const isMatch = sortedKeywords.some(
-        (k) => k.toLowerCase() === part.toLowerCase()
-      );
-      if (isMatch) {
-        return (
-          <span
-            key={i}
-            style={{
-              color: "#FBBF24",
-              fontWeight: 800,
-              textShadow: "0 0 12px rgba(251, 191, 36, 0.4)",
-            }}
-          >
-            {part}
-          </span>
-        );
-      }
-      return part;
-    });
+  const volumenSfx = sfx?.volumen ?? 0.35;
+  const sfxPorPlano = (p: Plano, i: number) => {
+    const tipo = p.sfx ?? (i === 0 ? "ninguno" : p.animacion === "sacudida" ? "pop" : "whoosh");
+    if (tipo === "ninguno") return null;
+    return sfx?.[tipo] ?? null;
   };
 
+  let cursor = 0;
+  const cortes = (scene.planos ?? []).map((p, i) => {
+    const desde = cursor;
+    cursor += p.duracion_frames;
+    const archivo = sfxPorPlano(p, i);
+    if (!archivo) return null;
+    // El whoosh arranca 4 frames antes del corte para que el pico caiga justo en el cambio de imagen.
+    return (
+      <Sequence key={`sfx-${p.id_plano}`} from={Math.max(0, desde - 4)} durationInFrames={30}>
+        <Audio src={staticFile(archivo)} volume={volumenSfx} />
+      </Sequence>
+    );
+  });
+
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        backgroundColor: "#0A0A0A",
-        overflow: "hidden",
-        position: "relative",
-      }}
-    >
-      {/* Audio oficial unificado de Gemini TTS Puck */}
-      <Audio src={audioSrc} />
+    <div style={{ width: "100%", height: "100%", backgroundColor: "#0A0A0A", overflow: "hidden", position: "relative" }}>
+      <Audio src={staticFile(scene.archivos_generados.audio_tts)} />
+      {cortes}
 
-      {/* Contenido visual principal (Motion Graphics nativos o Ilustración FLUX) */}
-      {renderVisualContent()}
+      {renderVisual()}
 
-      {/* Insignia kinética explicativa superior */}
-      <KineticOverlay
-        episodeId={episodeId}
-        sceneId={scene.id}
-        planoId={activePlanoId}
-        shotFrame={shotFrame}
-        shotTotalFrames={shotTotalFrames}
-      />
-
-      {/* Subtítulo dinámico por plano, corto, nítido y perfectamente sincronizado */}
       <div
         style={{
           position: "absolute",
-          bottom: 40,
-          left: 0,
-          right: 0,
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
+          inset: 0,
+          transform: `scale(${KINETIC_SCALE})`,
+          transformOrigin: "top left",
           pointerEvents: "none",
           zIndex: 20,
         }}
       >
-        <div
-          style={{
-            backgroundColor: "rgba(10, 10, 16, 0.85)",
-            backdropFilter: "blur(10px)",
-            padding: "12px 32px",
-            borderRadius: 16,
-            border: "1px solid rgba(255, 255, 255, 0.16)",
-            color: "#F8FAFC",
-            fontSize: 26,
-            fontWeight: 700,
-            fontFamily: "'Segoe UI', Roboto, sans-serif",
-            textAlign: "center",
-            maxWidth: "76%",
-            lineHeight: 1.35,
-            boxShadow: "0 8px 25px rgba(0, 0, 0, 0.6)",
-          }}
-        >
-          {renderSubtitle()}
-        </div>
+        <KineticOverlay
+          episodeId={episodeId}
+          sceneId={scene.id}
+          planoId={idPlano}
+          shotFrame={frameEnPlano}
+          shotTotalFrames={total}
+        />
       </div>
+
+      <WordCaptions
+        palabras={scene.palabras}
+        textoFallback={plano?.locucion_plano || scene.locucion}
+        fallbackStartFrame={inicio}
+        fallbackTotalFrames={total}
+        palabrasClave={plano?.palabras_clave_plano || scene.palabras_clave || []}
+      />
     </div>
   );
 };
