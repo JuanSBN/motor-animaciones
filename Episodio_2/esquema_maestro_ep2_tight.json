@@ -2008,29 +2008,68 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente.",
+          "locucion_plano": "El segundo responsable es el Tálamo...",
           "palabras_clave_plano": [
-            "el Tálamo",
-            "estación de trenes sensorial"
+            "el Tálamo"
           ],
-          "duracion_frames": 463,
+          "duracion_frames": 126,
           "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_5_p1.png",
-          "descripcion": "Torre de control central del cerebro representando la estación sensorial del tálamo"
+          "descripcion": "Diagrama de infografía del cerebro destacando la torre de control del tálamo"
         },
         {
           "id_plano": 2,
-          "locucion_plano": "Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+          "locucion_plano": "...la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana...",
           "palabras_clave_plano": [
-            "cierra las puertas",
-            "desconectó los cables"
+            "estación de trenes sensorial",
+            "sonido",
+            "roce"
           ],
-          "duracion_frames": 336,
+          "duracion_frames": 150,
           "animacion": "paneo_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_5_p2.png",
-          "descripcion": "Niko canónico en pijama cerrando los ojos mientras las compuertas sensoriales se sellan"
+          "descripcion": "Vías sensoriales luminosas transportando estímulos acústicos y táctiles hacia la estación"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "...y cada sombra pasa por el tálamo antes de llegar a tu mente consciente.",
+          "palabras_clave_plano": [
+            "sombra",
+            "mente consciente"
+          ],
+          "duracion_frames": 159,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p3.png",
+          "descripcion": "Consola holográfica enrutando y filtrando los datos sensoriales biológicos"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior.",
+          "palabras_clave_plano": [
+            "cierra las puertas",
+            "corta las vías"
+          ],
+          "duracion_frames": 189,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p4.png",
+          "descripcion": "Compuertas blindadas de bóveda sellándose y bloqueando los estímulos del exterior"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+          "palabras_clave_plano": [
+            "ojos se cierran",
+            "desconectó los cables"
+          ],
+          "duracion_frames": 175,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p5.png",
+          "descripcion": "Plano medio íntimo de Niko durmiendo plácidamente en su almohada con iluminación nocturna"
         }
       ],
       "audio": "assets/audio/voz_puck_ep2_escena_5.wav",
