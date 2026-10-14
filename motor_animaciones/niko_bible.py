@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-RUTA_CANONICA_NIKO = str(BASE_DIR / "niko_canon_ep2.png")
+RUTA_CANONICA_NIKO = str(BASE_DIR / "niko_canon_puro.png")
 RUTA_CANONICA_PIJAMA = str(BASE_DIR / "niko_referencia_pijama.png")
 
 ESTILO = (
@@ -23,19 +23,19 @@ ESTILO = (
 )
 
 NIKO = (
-    "Niko, a 12-year-old pre-teen cartoon boy, strictly identical to reference character: "
-    "round head with defined jawline, NOT chubby cheeks, small cute button nose, simple arched eyebrows, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
-    "exactly ONE single small light-blue rectangular band-aid on his left cheek, clear smooth skin on right cheek with NO second band-aid, "
-    "warm light tan skin, olive green utility vest over yellow-and-white thin horizontally striped t-shirt, dark blue shorts, white sneakers, "
-    "slender longer limbs, athletic 12-year-old pre-teen proportions, head-to-body ratio 1:4.5, NOT a toddler, NOT a baby, NOT chibi, clean 2D flat vector animation style"
+    "Niko, a 12-year-old pre-teen cartoon adventurer boy, strictly identical to reference character: "
+    "head with defined jawline, NOT chubby cheeks, small cute button nose, simple arched eyebrows, big expressive dark brown eyes, messy spiky dark teal-green hair (#1F6B63 / #2BB5A0) with a loose curved cowlick strand at the crown, "
+    "exactly ONE single small cream-white rectangular adhesive bandage (band-aid) on his left cheek, clear smooth skin on right cheek with NO second band-aid, "
+    "warm light tan skin, olive green utility cargo vest with pocket flaps over yellow-and-orange horizontally striped shirt, dark blue shorts, white sneakers, "
+    "slender limbs, athletic 12-year-old pre-teen proportions, head-to-body ratio 1:4.8, NOT a toddler, NOT a preschool child, NOT chibi, clean 2D flat vector comic animation style"
 )
 
 NIKO_PIJAMA = (
-    "Niko, a 12-year-old pre-teen cartoon boy in bed pajamas, strictly identical character: "
-    "round head with defined jawline, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
-    "exactly ONE single small light-blue band-aid on his left cheek, "
+    "Niko, a 12-year-old pre-teen cartoon adventurer boy in bed pajamas, strictly identical character: "
+    "head with defined jawline, big expressive dark brown eyes, messy spiky dark teal-green hair with loose curved cowlick, "
+    "exactly ONE single small cream-white adhesive bandage on his left cheek, "
     "warm light tan skin, yellow sleeping shirt, cozy bedtime attire, "
-    "slender limbs, head-to-body ratio 1:4.5, NOT a toddler, NOT a baby"
+    "slender limbs, athletic pre-teen proportions, head-to-body ratio 1:4.8, NOT a toddler, NOT a preschool child"
 )
 
 PLANOS = {

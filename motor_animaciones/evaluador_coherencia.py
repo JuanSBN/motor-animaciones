@@ -20,7 +20,7 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
 
 BASE_DIR = Path(__file__).resolve().parent
-RUTA_CANON_DIA = BASE_DIR / "niko_canon_ep2.png"
+RUTA_CANON_DIA = BASE_DIR / "niko_canon_puro.png"
 RUTA_CANON_PIJAMA = BASE_DIR / "niko_referencia_pijama.png"
 
 MODEL_ID = "openai/clip-vit-base-patch32"
