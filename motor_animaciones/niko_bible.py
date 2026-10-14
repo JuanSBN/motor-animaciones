@@ -23,19 +23,19 @@ ESTILO = (
 )
 
 NIKO = (
-    "Niko, a 12-year-old cartoon boy, strictly identical to reference character: "
-    "round face, small cute button nose, simple arched eyebrows, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
-    "exactly ONE single small light-blue rectangular band-aid on his left cheek, clear skin on right cheek with NO second band-aid, "
+    "Niko, a 12-year-old pre-teen cartoon boy, strictly identical to reference character: "
+    "round head with defined jawline, NOT chubby cheeks, small cute button nose, simple arched eyebrows, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
+    "exactly ONE single small light-blue rectangular band-aid on his left cheek, clear smooth skin on right cheek with NO second band-aid, "
     "warm light tan skin, olive green utility vest over yellow-and-white thin horizontally striped t-shirt, dark blue shorts, white sneakers, "
-    "NO backpack, NO extra accessories, consistent proportions, head-to-body ratio 1:3, clean 2D flat animation style"
+    "slender longer limbs, athletic 12-year-old pre-teen proportions, head-to-body ratio 1:4.5, NOT a toddler, NOT a baby, NOT chibi, clean 2D flat vector animation style"
 )
 
 NIKO_PIJAMA = (
-    "Niko, a 12-year-old cartoon boy in bed pajamas, strictly identical character: "
-    "round head, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
-    "exactly ONE small light-blue band-aid on his left cheek, "
+    "Niko, a 12-year-old pre-teen cartoon boy in bed pajamas, strictly identical character: "
+    "round head with defined jawline, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
+    "exactly ONE single small light-blue band-aid on his left cheek, "
     "warm light tan skin, yellow sleeping shirt, cozy bedtime attire, "
-    "consistent proportions, head-to-body ratio 1:3"
+    "slender limbs, head-to-body ratio 1:4.5, NOT a toddler, NOT a baby"
 )
 
 PLANOS = {
