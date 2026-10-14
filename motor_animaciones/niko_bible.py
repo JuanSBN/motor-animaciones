@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-RUTA_CANONICA_NIKO = str(BASE_DIR / "niko_referencia_canonica.jpg")
+RUTA_CANONICA_NIKO = str(BASE_DIR / "niko_canon_ep2.png")
 RUTA_CANONICA_PIJAMA = str(BASE_DIR / "niko_referencia_pijama.png")
 
 ESTILO = (
@@ -23,11 +23,11 @@ ESTILO = (
 )
 
 NIKO = (
-    "Niko, a 12-year-old cartoon boy, strictly identical character: "
-    "round head, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
-    "exactly ONE small light-blue band-aid on his left cheek, "
-    "warm light tan skin, green vest over yellow-and-white striped t-shirt, dark blue shorts, white sneakers, "
-    "consistent proportions, head-to-body ratio 1:3, clean stylized animation style"
+    "Niko, a 12-year-old cartoon boy, strictly identical to reference character: "
+    "round face, small cute button nose, simple arched eyebrows, big expressive brown eyes, messy spiky dark teal-green hair (#2BB5A0), "
+    "exactly ONE single small light-blue rectangular band-aid on his left cheek, clear skin on right cheek with NO second band-aid, "
+    "warm light tan skin, olive green utility vest over yellow-and-white thin horizontally striped t-shirt, dark blue shorts, white sneakers, "
+    "NO backpack, NO extra accessories, consistent proportions, head-to-body ratio 1:3, clean 2D flat animation style"
 )
 
 NIKO_PIJAMA = (

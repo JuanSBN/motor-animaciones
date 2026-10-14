@@ -49,6 +49,9 @@ def masterizar(entrada: Path, salida: Path, ligera: bool):
     if ligera:
         video = ["-vf", "scale=-2:720", "-c:v", "libx264", "-preset", "slow", "-crf", "28", "-maxrate", "1500k", "-bufsize", "3000k"]
         audio = ["-c:a", "aac", "-b:a", "128k"]
+    elif getattr(args, "copiar_video", False):
+        video = ["-c:v", "copy"]
+        audio = ["-c:a", "aac", "-b:a", "320k"]
     else:
         video = ["-vf", "scale=1920:1080:flags=lanczos", "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-profile:v", "high", "-pix_fmt", "yuv420p"]
         audio = ["-c:a", "aac", "-b:a", "320k"]
@@ -66,6 +69,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("entrada", type=Path)
     ap.add_argument("--ligera", action="store_true")
+    ap.add_argument("--copiar-video", action="store_true", help="Copia video sin re-codificar (ultrarrápido)")
+    global args
     args = ap.parse_args()
     sufijo = "_ligera" if args.ligera else "_youtube"
     masterizar(args.entrada, args.entrada.with_name(args.entrada.stem + sufijo + ".mp4"), args.ligera)
