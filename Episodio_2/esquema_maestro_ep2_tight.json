@@ -2,8 +2,8 @@
   "metadata": {
     "titulo": "Episodio 2: ¿Por Qué No Recuerdas Cuándo Te Quedas Dormido?",
     "duracion_objetivo": "5:00",
-    "duracion_total_segundos": 110.7,
-    "duracion_total_frames": 3321,
+    "duracion_total_segundos": 137.4,
+    "duracion_total_frames": 4122,
     "volumen_musica": 0.1,
     "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
     "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors",
@@ -2008,31 +2008,36 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente...",
+          "locucion_plano": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente.",
           "palabras_clave_plano": [
             "el Tálamo",
-            "estación de trenes"
+            "estación de trenes sensorial"
           ],
-          "duracion_frames": 140,
+          "duracion_frames": 463,
           "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_5_p1.png",
-          "prompt": "Futuristic cartoon central control tower inside the brain with glowing sensory pathways labeled by soundwaves, light rays, and touch signals arriving from outside. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Torre de control central del cerebro representando la estación sensorial del tálamo"
         },
         {
           "id_plano": 2,
-          "locucion_plano": "...Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+          "locucion_plano": "Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
           "palabras_clave_plano": [
             "cierra las puertas",
             "desconectó los cables"
           ],
-          "duracion_frames": 140,
+          "duracion_frames": 336,
           "animacion": "paneo_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_5_p2.png",
-          "prompt": "Huge stylized vault doors closing smoothly with a soft golden mechanical lock, shutting off sensory signals. Niko watches with a peaceful smile as the outside noise fades away. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Niko canónico en pijama cerrando los ojos mientras las compuertas sensoriales se sellan"
         }
-      ]
+      ],
+      "audio": "assets/audio/voz_puck_ep2_escena_5.wav",
+      "duracion_frames": 799,
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_5.wav"
+      }
     },
     {
       "id": 6,

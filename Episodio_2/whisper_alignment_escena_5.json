@@ -1,0 +1,603 @@
+{
+  "text": " El segundo responsable es el talamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada rose de la sábana y cada sombra pasa por el talamo antes de llegar a tu mente consciente. Para que puedas dormirte, el talamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierra, pero en realidad fue tu cerebro el que desconectó los cables.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.56,
+      "text": " El segundo responsable es el talamo, la gran estación de trenes sensorial de tu cabeza.",
+      "tokens": [
+        50364,
+        2699,
+        17954,
+        2914,
+        712,
+        785,
+        806,
+        4023,
+        10502,
+        11,
+        635,
+        9370,
+        871,
+        3482,
+        368,
+        23136,
+        279,
+        2923,
+        5181,
+        368,
+        2604,
+        34615,
+        13,
+        50666
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2152766329901559,
+      "compression_ratio": 1.6065573770491803,
+      "no_speech_prob": 0.034340791404247284,
+      "words": [
+        {
+          "word": " El",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.9350507855415344
+        },
+        {
+          "word": " segundo",
+          "start": 0.38,
+          "end": 0.72,
+          "probability": 0.9957262277603149
+        },
+        {
+          "word": " responsable",
+          "start": 0.72,
+          "end": 1.48,
+          "probability": 0.9854028522968292
+        },
+        {
+          "word": " es",
+          "start": 1.48,
+          "end": 1.86,
+          "probability": 0.9774245023727417
+        },
+        {
+          "word": " el",
+          "start": 1.86,
+          "end": 2.04,
+          "probability": 0.9485797882080078
+        },
+        {
+          "word": " talamo,",
+          "start": 2.04,
+          "end": 2.46,
+          "probability": 0.8372405171394348
+        },
+        {
+          "word": " la",
+          "start": 2.88,
+          "end": 3.04,
+          "probability": 0.9890377521514893
+        },
+        {
+          "word": " gran",
+          "start": 3.04,
+          "end": 3.32,
+          "probability": 0.8918333053588867
+        },
+        {
+          "word": " estación",
+          "start": 3.32,
+          "end": 3.82,
+          "probability": 0.9821723997592926
+        },
+        {
+          "word": " de",
+          "start": 3.82,
+          "end": 4.02,
+          "probability": 0.9939805269241333
+        },
+        {
+          "word": " trenes",
+          "start": 4.02,
+          "end": 4.44,
+          "probability": 0.6659433245658875
+        },
+        {
+          "word": " sensorial",
+          "start": 4.44,
+          "end": 4.82,
+          "probability": 0.6801384836435318
+        },
+        {
+          "word": " de",
+          "start": 4.82,
+          "end": 5.12,
+          "probability": 0.9982628226280212
+        },
+        {
+          "word": " tu",
+          "start": 5.12,
+          "end": 5.24,
+          "probability": 0.9155933856964111
+        },
+        {
+          "word": " cabeza.",
+          "start": 5.24,
+          "end": 5.56,
+          "probability": 0.9950365424156189
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.3,
+      "end": 14.04,
+      "text": " Cada sonido de la calle, cada rose de la sábana y cada sombra pasa por el talamo antes de llegar a tu mente consciente.",
+      "tokens": [
+        50666,
+        38603,
+        1872,
+        2925,
+        368,
+        635,
+        45092,
+        11,
+        8411,
+        10895,
+        368,
+        635,
+        262,
+        27879,
+        2095,
+        288,
+        8411,
+        3307,
+        6198,
+        20260,
+        1515,
+        806,
+        4023,
+        10502,
+        11014,
+        368,
+        24892,
+        257,
+        2604,
+        26577,
+        39271,
+        1576,
+        13,
+        51086
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2152766329901559,
+      "compression_ratio": 1.6065573770491803,
+      "no_speech_prob": 0.034340791404247284,
+      "words": [
+        {
+          "word": " Cada",
+          "start": 6.3,
+          "end": 6.62,
+          "probability": 0.9691295623779297
+        },
+        {
+          "word": " sonido",
+          "start": 6.62,
+          "end": 7.04,
+          "probability": 0.9871343970298767
+        },
+        {
+          "word": " de",
+          "start": 7.04,
+          "end": 7.24,
+          "probability": 0.955227792263031
+        },
+        {
+          "word": " la",
+          "start": 7.24,
+          "end": 7.36,
+          "probability": 0.9968229532241821
+        },
+        {
+          "word": " calle,",
+          "start": 7.36,
+          "end": 7.68,
+          "probability": 0.9915295839309692
+        },
+        {
+          "word": " cada",
+          "start": 8.04,
+          "end": 8.26,
+          "probability": 0.9914478063583374
+        },
+        {
+          "word": " rose",
+          "start": 8.26,
+          "end": 8.6,
+          "probability": 0.3754920959472656
+        },
+        {
+          "word": " de",
+          "start": 8.6,
+          "end": 8.8,
+          "probability": 0.9971923232078552
+        },
+        {
+          "word": " la",
+          "start": 8.8,
+          "end": 8.94,
+          "probability": 0.9891297817230225
+        },
+        {
+          "word": " sábana",
+          "start": 8.94,
+          "end": 9.36,
+          "probability": 0.9288612604141235
+        },
+        {
+          "word": " y",
+          "start": 9.36,
+          "end": 9.64,
+          "probability": 0.6937641501426697
+        },
+        {
+          "word": " cada",
+          "start": 9.64,
+          "end": 10.02,
+          "probability": 0.9953973889350891
+        },
+        {
+          "word": " sombra",
+          "start": 10.02,
+          "end": 10.5,
+          "probability": 0.993529736995697
+        },
+        {
+          "word": " pasa",
+          "start": 10.5,
+          "end": 11.1,
+          "probability": 0.8319823741912842
+        },
+        {
+          "word": " por",
+          "start": 11.1,
+          "end": 11.32,
+          "probability": 0.998244047164917
+        },
+        {
+          "word": " el",
+          "start": 11.32,
+          "end": 11.46,
+          "probability": 0.9972133040428162
+        },
+        {
+          "word": " talamo",
+          "start": 11.46,
+          "end": 11.9,
+          "probability": 0.9964410364627838
+        },
+        {
+          "word": " antes",
+          "start": 11.9,
+          "end": 12.38,
+          "probability": 0.9958680868148804
+        },
+        {
+          "word": " de",
+          "start": 12.38,
+          "end": 12.56,
+          "probability": 0.999518871307373
+        },
+        {
+          "word": " llegar",
+          "start": 12.56,
+          "end": 12.82,
+          "probability": 0.9940892457962036
+        },
+        {
+          "word": " a",
+          "start": 12.82,
+          "end": 12.96,
+          "probability": 0.9966502785682678
+        },
+        {
+          "word": " tu",
+          "start": 12.96,
+          "end": 13.1,
+          "probability": 0.9886518120765686
+        },
+        {
+          "word": " mente",
+          "start": 13.1,
+          "end": 13.3,
+          "probability": 0.9955999851226807
+        },
+        {
+          "word": " consciente.",
+          "start": 13.3,
+          "end": 14.04,
+          "probability": 0.9186222851276398
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 14.66,
+      "end": 20.84,
+      "text": " Para que puedas dormirte, el talamo cierra las puertas y corta todas las vías de entrada exterior.",
+      "tokens": [
+        51086,
+        11107,
+        631,
+        10947,
+        296,
+        12521,
+        347,
+        975,
+        11,
+        806,
+        4023,
+        10502,
+        269,
+        17452,
+        2439,
+        2362,
+        49215,
+        288,
+        11278,
+        64,
+        10906,
+        2439,
+        6153,
+        296,
+        368,
+        37119,
+        20677,
+        13,
+        51430
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2152766329901559,
+      "compression_ratio": 1.6065573770491803,
+      "no_speech_prob": 0.034340791404247284,
+      "words": [
+        {
+          "word": " Para",
+          "start": 14.66,
+          "end": 14.92,
+          "probability": 0.9767277836799622
+        },
+        {
+          "word": " que",
+          "start": 14.92,
+          "end": 15.06,
+          "probability": 0.997621476650238
+        },
+        {
+          "word": " puedas",
+          "start": 15.06,
+          "end": 15.44,
+          "probability": 0.9932867586612701
+        },
+        {
+          "word": " dormirte,",
+          "start": 15.44,
+          "end": 15.94,
+          "probability": 0.7036086718241373
+        },
+        {
+          "word": " el",
+          "start": 16.32,
+          "end": 16.44,
+          "probability": 0.9920921325683594
+        },
+        {
+          "word": " talamo",
+          "start": 16.44,
+          "end": 16.9,
+          "probability": 0.9971384704113007
+        },
+        {
+          "word": " cierra",
+          "start": 16.9,
+          "end": 17.38,
+          "probability": 0.824337363243103
+        },
+        {
+          "word": " las",
+          "start": 17.38,
+          "end": 17.64,
+          "probability": 0.9914652705192566
+        },
+        {
+          "word": " puertas",
+          "start": 17.64,
+          "end": 18.02,
+          "probability": 0.9863731861114502
+        },
+        {
+          "word": " y",
+          "start": 18.02,
+          "end": 18.3,
+          "probability": 0.9832360148429871
+        },
+        {
+          "word": " corta",
+          "start": 18.3,
+          "end": 18.72,
+          "probability": 0.9847967028617859
+        },
+        {
+          "word": " todas",
+          "start": 18.72,
+          "end": 19.1,
+          "probability": 0.9915810227394104
+        },
+        {
+          "word": " las",
+          "start": 19.1,
+          "end": 19.46,
+          "probability": 0.9957461953163147
+        },
+        {
+          "word": " vías",
+          "start": 19.46,
+          "end": 19.78,
+          "probability": 0.788722038269043
+        },
+        {
+          "word": " de",
+          "start": 19.78,
+          "end": 19.92,
+          "probability": 0.9980167150497437
+        },
+        {
+          "word": " entrada",
+          "start": 19.92,
+          "end": 20.26,
+          "probability": 0.9977299571037292
+        },
+        {
+          "word": " exterior.",
+          "start": 20.26,
+          "end": 20.84,
+          "probability": 0.9246048927307129
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 21.56,
+      "end": 26.08,
+      "text": " Tus ojos se cierra, pero en realidad fue tu cerebro el que desconectó los cables.",
+      "tokens": [
+        51430,
+        42026,
+        39519,
+        369,
+        269,
+        17452,
+        11,
+        4768,
+        465,
+        25635,
+        9248,
+        2604,
+        11643,
+        9120,
+        806,
+        631,
+        7471,
+        546,
+        349,
+        812,
+        1750,
+        17555,
+        13,
+        51692
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2152766329901559,
+      "compression_ratio": 1.6065573770491803,
+      "no_speech_prob": 0.034340791404247284,
+      "words": [
+        {
+          "word": " Tus",
+          "start": 21.56,
+          "end": 21.76,
+          "probability": 0.5611478686332703
+        },
+        {
+          "word": " ojos",
+          "start": 21.76,
+          "end": 22.06,
+          "probability": 0.9965529441833496
+        },
+        {
+          "word": " se",
+          "start": 22.06,
+          "end": 22.24,
+          "probability": 0.9730216860771179
+        },
+        {
+          "word": " cierra,",
+          "start": 22.24,
+          "end": 22.6,
+          "probability": 0.6043038368225098
+        },
+        {
+          "word": " pero",
+          "start": 22.96,
+          "end": 23.26,
+          "probability": 0.99825519323349
+        },
+        {
+          "word": " en",
+          "start": 23.26,
+          "end": 23.36,
+          "probability": 0.9678566455841064
+        },
+        {
+          "word": " realidad",
+          "start": 23.36,
+          "end": 23.76,
+          "probability": 0.9994726777076721
+        },
+        {
+          "word": " fue",
+          "start": 23.76,
+          "end": 24.06,
+          "probability": 0.9416540265083313
+        },
+        {
+          "word": " tu",
+          "start": 24.06,
+          "end": 24.26,
+          "probability": 0.9858469367027283
+        },
+        {
+          "word": " cerebro",
+          "start": 24.26,
+          "end": 24.76,
+          "probability": 0.9942161738872528
+        },
+        {
+          "word": " el",
+          "start": 24.76,
+          "end": 24.94,
+          "probability": 0.9749240279197693
+        },
+        {
+          "word": " que",
+          "start": 24.94,
+          "end": 25.06,
+          "probability": 0.9966450333595276
+        },
+        {
+          "word": " desconectó",
+          "start": 25.06,
+          "end": 25.6,
+          "probability": 0.9330290257930756
+        },
+        {
+          "word": " los",
+          "start": 25.6,
+          "end": 25.8,
+          "probability": 0.9879133105278015
+        },
+        {
+          "word": " cables.",
+          "start": 25.8,
+          "end": 26.08,
+          "probability": 0.9474488496780396
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}
