@@ -1,0 +1,656 @@
+{
+  "text": " En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus zondas cerebrales cambian de las rápidas zondas alfa a las lenta y profunda zondas tetas. tus pensamientos pierden la lógica, tus músculos se relajan por completo y tu cerebro sufre una micro desconexión. Y si esa transición ocurre demasiado rápido, tu cuerpo interpreta erroneamente que estás cayendo al vacío y lanza una sacudida violenta, la famosa sacudida",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.44,
+      "text": " En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus",
+      "tokens": [
+        50364,
+        2193,
+        10167,
+        9333,
+        1900,
+        78,
+        948,
+        3906,
+        465,
+        635,
+        33931,
+        426,
+        16,
+        11,
+        2002,
+        12428,
+        64,
+        725,
+        2645,
+        345,
+        13427,
+        10488,
+        20647,
+        50685
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22552308014460973,
+      "compression_ratio": 1.550420168067227,
+      "no_speech_prob": 0.01746055670082569,
+      "words": [
+        {
+          "word": " En",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.6389414072036743
+        },
+        {
+          "word": " ese",
+          "start": 0.5,
+          "end": 0.7,
+          "probability": 0.9633057117462158
+        },
+        {
+          "word": " momento",
+          "start": 0.7,
+          "end": 0.94,
+          "probability": 0.8134918212890625
+        },
+        {
+          "word": " exacto",
+          "start": 0.94,
+          "end": 1.74,
+          "probability": 0.7208571583032608
+        },
+        {
+          "word": " entras",
+          "start": 1.74,
+          "end": 2.34,
+          "probability": 0.8630110621452332
+        },
+        {
+          "word": " en",
+          "start": 2.34,
+          "end": 2.54,
+          "probability": 0.9909002780914307
+        },
+        {
+          "word": " la",
+          "start": 2.54,
+          "end": 2.64,
+          "probability": 0.9967798590660095
+        },
+        {
+          "word": " fase",
+          "start": 2.64,
+          "end": 2.96,
+          "probability": 0.9141223430633545
+        },
+        {
+          "word": " N1,",
+          "start": 2.96,
+          "end": 3.82,
+          "probability": 0.8818494081497192
+        },
+        {
+          "word": " una",
+          "start": 4.28,
+          "end": 4.52,
+          "probability": 0.9857446551322937
+        },
+        {
+          "word": " rampa",
+          "start": 4.52,
+          "end": 5.0,
+          "probability": 0.9789961278438568
+        },
+        {
+          "word": " resbaladiza",
+          "start": 5.0,
+          "end": 5.72,
+          "probability": 0.8061969429254532
+        },
+        {
+          "word": " donde",
+          "start": 5.72,
+          "end": 6.22,
+          "probability": 0.6009350419044495
+        },
+        {
+          "word": " tus",
+          "start": 6.22,
+          "end": 6.44,
+          "probability": 0.9033356308937073
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.44,
+      "end": 10.74,
+      "text": " zondas cerebrales cambian de las rápidas zondas alfa a las lenta y",
+      "tokens": [
+        50685,
+        710,
+        684,
+        296,
+        11643,
+        1443,
+        4229,
+        18751,
+        952,
+        368,
+        2439,
+        18213,
+        11382,
+        710,
+        684,
+        296,
+        419,
+        11771,
+        257,
+        2439,
+        287,
+        8938,
+        288,
+        50901
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22552308014460973,
+      "compression_ratio": 1.550420168067227,
+      "no_speech_prob": 0.01746055670082569,
+      "words": [
+        {
+          "word": " zondas",
+          "start": 6.44,
+          "end": 6.76,
+          "probability": 0.802980919679006
+        },
+        {
+          "word": " cerebrales",
+          "start": 6.76,
+          "end": 7.2,
+          "probability": 0.9637730916341146
+        },
+        {
+          "word": " cambian",
+          "start": 7.2,
+          "end": 7.8,
+          "probability": 0.9468255639076233
+        },
+        {
+          "word": " de",
+          "start": 7.8,
+          "end": 7.94,
+          "probability": 0.9842014908790588
+        },
+        {
+          "word": " las",
+          "start": 7.94,
+          "end": 8.18,
+          "probability": 0.9860327839851379
+        },
+        {
+          "word": " rápidas",
+          "start": 8.18,
+          "end": 8.64,
+          "probability": 0.9570538401603699
+        },
+        {
+          "word": " zondas",
+          "start": 8.64,
+          "end": 9.04,
+          "probability": 0.9820063312848409
+        },
+        {
+          "word": " alfa",
+          "start": 9.04,
+          "end": 9.38,
+          "probability": 0.877761721611023
+        },
+        {
+          "word": " a",
+          "start": 9.38,
+          "end": 9.84,
+          "probability": 0.9427825808525085
+        },
+        {
+          "word": " las",
+          "start": 9.84,
+          "end": 10.12,
+          "probability": 0.9966232776641846
+        },
+        {
+          "word": " lenta",
+          "start": 10.12,
+          "end": 10.54,
+          "probability": 0.3069494515657425
+        },
+        {
+          "word": " y",
+          "start": 10.54,
+          "end": 10.74,
+          "probability": 0.8608888983726501
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.74,
+      "end": 15.8,
+      "text": " profunda zondas tetas. tus pensamientos pierden la lógica, tus músculos se",
+      "tokens": [
+        50901,
+        1740,
+        11946,
+        710,
+        684,
+        296,
+        23319,
+        296,
+        13,
+        20647,
+        6099,
+        43466,
+        9766,
+        1556,
+        635,
+        48475,
+        2262,
+        11,
+        20647,
+        38886,
+        32397,
+        369,
+        51154
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22552308014460973,
+      "compression_ratio": 1.550420168067227,
+      "no_speech_prob": 0.01746055670082569,
+      "words": [
+        {
+          "word": " profunda",
+          "start": 10.74,
+          "end": 11.3,
+          "probability": 0.9250838458538055
+        },
+        {
+          "word": " zondas",
+          "start": 11.3,
+          "end": 11.78,
+          "probability": 0.9800651868184408
+        },
+        {
+          "word": " tetas.",
+          "start": 11.78,
+          "end": 12.26,
+          "probability": 0.6301504075527191
+        },
+        {
+          "word": " tus",
+          "start": 12.72,
+          "end": 12.98,
+          "probability": 0.23607738316059113
+        },
+        {
+          "word": " pensamientos",
+          "start": 12.98,
+          "end": 13.54,
+          "probability": 0.9947042763233185
+        },
+        {
+          "word": " pierden",
+          "start": 13.54,
+          "end": 13.98,
+          "probability": 0.9618142247200012
+        },
+        {
+          "word": " la",
+          "start": 13.98,
+          "end": 14.16,
+          "probability": 0.9842967391014099
+        },
+        {
+          "word": " lógica,",
+          "start": 14.16,
+          "end": 14.66,
+          "probability": 0.9927505254745483
+        },
+        {
+          "word": " tus",
+          "start": 15.0,
+          "end": 15.16,
+          "probability": 0.9810658097267151
+        },
+        {
+          "word": " músculos",
+          "start": 15.16,
+          "end": 15.58,
+          "probability": 0.974554568529129
+        },
+        {
+          "word": " se",
+          "start": 15.58,
+          "end": 15.8,
+          "probability": 0.9975000023841858
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.8,
+      "end": 21.2,
+      "text": " relajan por completo y tu cerebro sufre una micro desconexión. Y si esa",
+      "tokens": [
+        51154,
+        5195,
+        14763,
+        1515,
+        40135,
+        288,
+        2604,
+        11643,
+        9120,
+        459,
+        19325,
+        2002,
+        4532,
+        7471,
+        546,
+        87,
+        2560,
+        13,
+        398,
+        1511,
+        11342,
+        51424
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22552308014460973,
+      "compression_ratio": 1.550420168067227,
+      "no_speech_prob": 0.01746055670082569,
+      "words": [
+        {
+          "word": " relajan",
+          "start": 15.8,
+          "end": 16.28,
+          "probability": 0.9867729246616364
+        },
+        {
+          "word": " por",
+          "start": 16.28,
+          "end": 16.48,
+          "probability": 0.9958601593971252
+        },
+        {
+          "word": " completo",
+          "start": 16.48,
+          "end": 17.0,
+          "probability": 0.9986993074417114
+        },
+        {
+          "word": " y",
+          "start": 17.0,
+          "end": 17.54,
+          "probability": 0.7576960921287537
+        },
+        {
+          "word": " tu",
+          "start": 17.54,
+          "end": 17.68,
+          "probability": 0.5714212656021118
+        },
+        {
+          "word": " cerebro",
+          "start": 17.68,
+          "end": 18.08,
+          "probability": 0.9912588596343994
+        },
+        {
+          "word": " sufre",
+          "start": 18.08,
+          "end": 18.46,
+          "probability": 0.8610982894897461
+        },
+        {
+          "word": " una",
+          "start": 18.46,
+          "end": 18.72,
+          "probability": 0.9048857092857361
+        },
+        {
+          "word": " micro",
+          "start": 18.72,
+          "end": 19.18,
+          "probability": 0.9609531760215759
+        },
+        {
+          "word": " desconexión.",
+          "start": 19.18,
+          "end": 19.9,
+          "probability": 0.8775784075260162
+        },
+        {
+          "word": " Y",
+          "start": 20.6,
+          "end": 20.82,
+          "probability": 0.7451353669166565
+        },
+        {
+          "word": " si",
+          "start": 20.82,
+          "end": 20.96,
+          "probability": 0.9456228613853455
+        },
+        {
+          "word": " esa",
+          "start": 20.96,
+          "end": 21.2,
+          "probability": 0.9610854983329773
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 21.2,
+      "end": 25.7,
+      "text": " transición ocurre demasiado rápido, tu cuerpo interpreta erroneamente que",
+      "tokens": [
+        51424,
+        1145,
+        15534,
+        26430,
+        265,
+        39820,
+        24893,
+        11,
+        2604,
+        20264,
+        17489,
+        1328,
+        1189,
+        26446,
+        3439,
+        631,
+        51649
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22552308014460973,
+      "compression_ratio": 1.550420168067227,
+      "no_speech_prob": 0.01746055670082569,
+      "words": [
+        {
+          "word": " transición",
+          "start": 21.2,
+          "end": 21.66,
+          "probability": 0.9772394299507141
+        },
+        {
+          "word": " ocurre",
+          "start": 21.66,
+          "end": 22.16,
+          "probability": 0.9889115691184998
+        },
+        {
+          "word": " demasiado",
+          "start": 22.16,
+          "end": 22.66,
+          "probability": 0.9894018769264221
+        },
+        {
+          "word": " rápido,",
+          "start": 22.66,
+          "end": 23.32,
+          "probability": 0.981758177280426
+        },
+        {
+          "word": " tu",
+          "start": 23.8,
+          "end": 23.88,
+          "probability": 0.993302583694458
+        },
+        {
+          "word": " cuerpo",
+          "start": 23.88,
+          "end": 24.08,
+          "probability": 0.9893370866775513
+        },
+        {
+          "word": " interpreta",
+          "start": 24.08,
+          "end": 24.74,
+          "probability": 0.9520004689693451
+        },
+        {
+          "word": " erroneamente",
+          "start": 24.74,
+          "end": 25.38,
+          "probability": 0.8252904216448466
+        },
+        {
+          "word": " que",
+          "start": 25.38,
+          "end": 25.82,
+          "probability": 0.9916245341300964
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2582,
+      "start": 25.82,
+      "end": 31.12,
+      "text": " estás cayendo al vacío y lanza una sacudida violenta, la famosa sacudida",
+      "tokens": [
+        50364,
+        24389,
+        45776,
+        3999,
+        419,
+        2842,
+        20492,
+        288,
+        9326,
+        2394,
+        2002,
+        4899,
+        532,
+        2887,
+        3448,
+        8938,
+        11,
+        635,
+        1087,
+        6447,
+        4899,
+        532,
+        2887,
+        50629
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23457936140207145,
+      "compression_ratio": 1.0136986301369864,
+      "no_speech_prob": 0.12381891906261444,
+      "words": [
+        {
+          "word": " estás",
+          "start": 25.82,
+          "end": 26.08,
+          "probability": 0.24635125696659088
+        },
+        {
+          "word": " cayendo",
+          "start": 26.08,
+          "end": 26.54,
+          "probability": 0.9732305407524109
+        },
+        {
+          "word": " al",
+          "start": 26.54,
+          "end": 26.7,
+          "probability": 0.9945889711380005
+        },
+        {
+          "word": " vacío",
+          "start": 26.7,
+          "end": 27.06,
+          "probability": 0.9294624626636505
+        },
+        {
+          "word": " y",
+          "start": 27.06,
+          "end": 27.58,
+          "probability": 0.7663206458091736
+        },
+        {
+          "word": " lanza",
+          "start": 27.58,
+          "end": 27.96,
+          "probability": 0.8698098659515381
+        },
+        {
+          "word": " una",
+          "start": 27.96,
+          "end": 28.18,
+          "probability": 0.9588502645492554
+        },
+        {
+          "word": " sacudida",
+          "start": 28.18,
+          "end": 28.72,
+          "probability": 0.9435198505719503
+        },
+        {
+          "word": " violenta,",
+          "start": 28.72,
+          "end": 29.24,
+          "probability": 0.9134121835231781
+        },
+        {
+          "word": " la",
+          "start": 29.76,
+          "end": 29.9,
+          "probability": 0.9875776767730713
+        },
+        {
+          "word": " famosa",
+          "start": 29.9,
+          "end": 30.44,
+          "probability": 0.9894339442253113
+        },
+        {
+          "word": " sacudida",
+          "start": 30.44,
+          "end": 31.12,
+          "probability": 0.9844004909197489
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

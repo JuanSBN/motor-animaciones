@@ -2,8 +2,8 @@
   "metadata": {
     "titulo": "Episodio 2: ¿Por Qué No Recuerdas Cuándo Te Quedas Dormido?",
     "duracion_objetivo": "5:00",
-    "duracion_total_segundos": 137.4,
-    "duracion_total_frames": 4122,
+    "duracion_total_segundos": 169.33,
+    "duracion_total_frames": 5080,
     "volumen_musica": 0.1,
     "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
     "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors",
@@ -2092,32 +2092,86 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta...",
+          "locucion_plano": "En ese momento exacto entras en la fase N1, una rampa resbaladiza...",
           "palabras_clave_plano": [
             "fase N1",
-            "ondas Alfa",
-            "ondas Theta"
+            "rampa resbaladiza"
           ],
-          "duracion_frames": 145,
+          "duracion_frames": 172,
           "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_6_p1.png",
-          "prompt": "Colorful educational diagram showing wavy rhythmic brainwave lines shifting smoothly from rapid electric blue waves to deep purple slow oceanic waves. Niko slides down a fun glowing slide between them. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Infografía de descenso a la Fase N1 hacia la noche bioluminiscente"
         },
         {
           "id_plano": 2,
-          "locucion_plano": "...Tus pensamientos pierden la lógica, tus músculos se relajan y si la transición es muy rápida, tu cuerpo cree que caes al vacío: la famosa sacudida hípnica.",
+          "locucion_plano": "...donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta.",
           "palabras_clave_plano": [
-            "caes al vacío",
-            "sacudida hípnica"
+            "ondas Alfa",
+            "ondas Theta"
           ],
-          "duracion_frames": 145,
-          "animacion": "flotar_suave",
+          "duracion_frames": 98,
+          "animacion": "paneo_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_6_p2.png",
-          "prompt": "Comical dramatic shot: Niko dreaming he is falling off a cliff in space, suddenly twitching and kicking in bed in exaggerated cartoon surprise, clutching the blankets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Diagrama científico de ondas cerebrales Alfa transicionando a Theta"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Tus pensamientos pierden la lógica, tus músculos se relajan por completo...",
+          "palabras_clave_plano": [
+            "pierden la lógica",
+            "músculos se relajan"
+          ],
+          "duracion_frames": 170,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p3.png",
+          "descripcion": "Esferas de pensamientos flotando y engranajes soltándose en el cielo nocturno"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "...y tu cerebro sufre una micro desconexión.",
+          "palabras_clave_plano": [
+            "micro desconexión"
+          ],
+          "duracion_frames": 157,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p4.png",
+          "descripcion": "Interruptor de circuito neuronal atenuándose con partículas tenues"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "Y si esa transición ocurre demasiado rápido, tu cuerpo interpreta erróneamente que te estás cayendo al vacío...",
+          "palabras_clave_plano": [
+            "cayendo al vacío"
+          ],
+          "duracion_frames": 215,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p5.png",
+          "descripcion": "Niko canónico cayendo cómicamente en cámara lenta a través de nubes nocturnas"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "...y lanza una sacudida violenta: la famosa sacudida hípnica.",
+          "palabras_clave_plano": [
+            "sacudida violenta",
+            "sacudida hípnica"
+          ],
+          "duracion_frames": 146,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p6.png",
+          "descripcion": "Niko canónico sobresaltado en la cama por la sacudida hípnica con ojos de sorpresa cómica"
         }
-      ]
+      ],
+      "audio": "assets/audio/voz_puck_ep2_escena_6.wav",
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_6.wav"
+      },
+      "duracion_frames": 958
     },
     {
       "id": 7,
