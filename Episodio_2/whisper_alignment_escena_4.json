@@ -1,0 +1,609 @@
+{
+  "text": " Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso. El hipocampo no se duerme al mismo tiempo que el resto del cuerpo. Se apaga de 4 a 10 minutos antes de que pierdas el conocimiento. Imagina que una cámara de seguridad deja de grabar mientras las luces de la habitación todavía siguen encendidas. Durante esos minutos finales estás despierto, pero nadie está guardando el archivo.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.36,
+      "text": " Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso.",
+      "tokens": [
+        50364,
+        9377,
+        7767,
+        535,
+        1131,
+        279,
+        257,
+        635,
+        50197,
+        11,
+        1750,
+        37053,
+        329,
+        32592,
+        7326,
+        266,
+        517,
+        26830,
+        812,
+        43232,
+        382,
+        298,
+        1443,
+        9869,
+        13,
+        50652
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1789531541907269,
+      "compression_ratio": 1.5217391304347827,
+      "no_speech_prob": 0.01956791989505291,
+      "words": [
+        {
+          "word": " Pero",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.7524707317352295
+        },
+        {
+          "word": " cuando",
+          "start": 0.46,
+          "end": 0.78,
+          "probability": 0.8276051878929138
+        },
+        {
+          "word": " te",
+          "start": 0.78,
+          "end": 1.0,
+          "probability": 0.9356589317321777
+        },
+        {
+          "word": " metes",
+          "start": 1.0,
+          "end": 1.26,
+          "probability": 0.9777456223964691
+        },
+        {
+          "word": " a",
+          "start": 1.26,
+          "end": 1.4,
+          "probability": 0.9886201620101929
+        },
+        {
+          "word": " la",
+          "start": 1.4,
+          "end": 1.5,
+          "probability": 0.9957226514816284
+        },
+        {
+          "word": " cama,",
+          "start": 1.5,
+          "end": 1.76,
+          "probability": 0.9952078461647034
+        },
+        {
+          "word": " los",
+          "start": 2.28,
+          "end": 2.38,
+          "probability": 0.9612084031105042
+        },
+        {
+          "word": " científicos",
+          "start": 2.38,
+          "end": 3.06,
+          "probability": 0.9912384152412415
+        },
+        {
+          "word": " descubrieron",
+          "start": 3.06,
+          "end": 3.68,
+          "probability": 0.9929359952608744
+        },
+        {
+          "word": " un",
+          "start": 3.68,
+          "end": 4.0,
+          "probability": 0.9946308135986328
+        },
+        {
+          "word": " fenómeno",
+          "start": 4.0,
+          "end": 4.52,
+          "probability": 0.9879074096679688
+        },
+        {
+          "word": " asombroso.",
+          "start": 4.52,
+          "end": 5.36,
+          "probability": 0.9336238950490952
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.96,
+      "end": 9.74,
+      "text": " El hipocampo no se duerme al mismo tiempo que el resto del cuerpo.",
+      "tokens": [
+        50652,
+        2699,
+        8103,
+        905,
+        1215,
+        78,
+        572,
+        369,
+        1581,
+        31081,
+        419,
+        12461,
+        11772,
+        631,
+        806,
+        28247,
+        1103,
+        20264,
+        13,
+        50870
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1789531541907269,
+      "compression_ratio": 1.5217391304347827,
+      "no_speech_prob": 0.01956791989505291,
+      "words": [
+        {
+          "word": " El",
+          "start": 5.96,
+          "end": 6.16,
+          "probability": 0.986239492893219
+        },
+        {
+          "word": " hipocampo",
+          "start": 6.16,
+          "end": 6.84,
+          "probability": 0.7205587178468704
+        },
+        {
+          "word": " no",
+          "start": 6.84,
+          "end": 7.26,
+          "probability": 0.991517186164856
+        },
+        {
+          "word": " se",
+          "start": 7.26,
+          "end": 7.5,
+          "probability": 0.9897232055664062
+        },
+        {
+          "word": " duerme",
+          "start": 7.5,
+          "end": 7.8,
+          "probability": 0.8269411623477936
+        },
+        {
+          "word": " al",
+          "start": 7.8,
+          "end": 7.96,
+          "probability": 0.9644384980201721
+        },
+        {
+          "word": " mismo",
+          "start": 7.96,
+          "end": 8.22,
+          "probability": 0.9986347556114197
+        },
+        {
+          "word": " tiempo",
+          "start": 8.22,
+          "end": 8.62,
+          "probability": 0.999133288860321
+        },
+        {
+          "word": " que",
+          "start": 8.62,
+          "end": 8.82,
+          "probability": 0.9942776560783386
+        },
+        {
+          "word": " el",
+          "start": 8.82,
+          "end": 8.94,
+          "probability": 0.9965519905090332
+        },
+        {
+          "word": " resto",
+          "start": 8.94,
+          "end": 9.2,
+          "probability": 0.9964866638183594
+        },
+        {
+          "word": " del",
+          "start": 9.2,
+          "end": 9.4,
+          "probability": 0.9974732995033264
+        },
+        {
+          "word": " cuerpo.",
+          "start": 9.4,
+          "end": 9.74,
+          "probability": 0.9973795413970947
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.24,
+      "end": 14.98,
+      "text": " Se apaga de 4 a 10 minutos antes de que pierdas el conocimiento.",
+      "tokens": [
+        50870,
+        1100,
+        1882,
+        9286,
+        368,
+        1017,
+        257,
+        1266,
+        19421,
+        11014,
+        368,
+        631,
+        9766,
+        27476,
+        806,
+        15871,
+        14007,
+        13,
+        51142
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1789531541907269,
+      "compression_ratio": 1.5217391304347827,
+      "no_speech_prob": 0.01956791989505291,
+      "words": [
+        {
+          "word": " Se",
+          "start": 10.24,
+          "end": 10.5,
+          "probability": 0.9791760444641113
+        },
+        {
+          "word": " apaga",
+          "start": 10.5,
+          "end": 10.88,
+          "probability": 0.9080160558223724
+        },
+        {
+          "word": " de",
+          "start": 10.88,
+          "end": 11.14,
+          "probability": 0.9867803454399109
+        },
+        {
+          "word": " 4",
+          "start": 11.14,
+          "end": 11.64,
+          "probability": 0.6009477972984314
+        },
+        {
+          "word": " a",
+          "start": 11.64,
+          "end": 11.92,
+          "probability": 0.9920333027839661
+        },
+        {
+          "word": " 10",
+          "start": 11.92,
+          "end": 12.28,
+          "probability": 0.9961631298065186
+        },
+        {
+          "word": " minutos",
+          "start": 12.28,
+          "end": 12.6,
+          "probability": 0.980562150478363
+        },
+        {
+          "word": " antes",
+          "start": 12.6,
+          "end": 13.38,
+          "probability": 0.9865387678146362
+        },
+        {
+          "word": " de",
+          "start": 13.38,
+          "end": 13.78,
+          "probability": 0.9662007689476013
+        },
+        {
+          "word": " que",
+          "start": 13.78,
+          "end": 13.88,
+          "probability": 0.9948214292526245
+        },
+        {
+          "word": " pierdas",
+          "start": 13.88,
+          "end": 14.26,
+          "probability": 0.9590899050235748
+        },
+        {
+          "word": " el",
+          "start": 14.26,
+          "end": 14.44,
+          "probability": 0.9986957907676697
+        },
+        {
+          "word": " conocimiento.",
+          "start": 14.44,
+          "end": 14.98,
+          "probability": 0.9985809028148651
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.72,
+      "end": 21.96,
+      "text": " Imagina que una cámara de seguridad deja de grabar mientras las luces de la habitación todavía siguen encendidas.",
+      "tokens": [
+        51142,
+        34223,
+        1426,
+        631,
+        2002,
+        44273,
+        368,
+        35415,
+        38260,
+        368,
+        4444,
+        289,
+        26010,
+        2439,
+        10438,
+        887,
+        368,
+        635,
+        7164,
+        3482,
+        28388,
+        4556,
+        7801,
+        2058,
+        521,
+        11382,
+        13,
+        51488
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1789531541907269,
+      "compression_ratio": 1.5217391304347827,
+      "no_speech_prob": 0.01956791989505291,
+      "words": [
+        {
+          "word": " Imagina",
+          "start": 15.72,
+          "end": 16.24,
+          "probability": 0.9542891383171082
+        },
+        {
+          "word": " que",
+          "start": 16.24,
+          "end": 16.42,
+          "probability": 0.9960553646087646
+        },
+        {
+          "word": " una",
+          "start": 16.42,
+          "end": 16.62,
+          "probability": 0.9905098080635071
+        },
+        {
+          "word": " cámara",
+          "start": 16.62,
+          "end": 16.92,
+          "probability": 0.8979295492172241
+        },
+        {
+          "word": " de",
+          "start": 16.92,
+          "end": 17.12,
+          "probability": 0.9985975623130798
+        },
+        {
+          "word": " seguridad",
+          "start": 17.12,
+          "end": 17.58,
+          "probability": 0.9976270794868469
+        },
+        {
+          "word": " deja",
+          "start": 17.58,
+          "end": 18.16,
+          "probability": 0.9741146564483643
+        },
+        {
+          "word": " de",
+          "start": 18.16,
+          "end": 18.32,
+          "probability": 0.9909684062004089
+        },
+        {
+          "word": " grabar",
+          "start": 18.32,
+          "end": 18.7,
+          "probability": 0.976275235414505
+        },
+        {
+          "word": " mientras",
+          "start": 18.7,
+          "end": 19.08,
+          "probability": 0.9387185573577881
+        },
+        {
+          "word": " las",
+          "start": 19.08,
+          "end": 19.42,
+          "probability": 0.9936428070068359
+        },
+        {
+          "word": " luces",
+          "start": 19.42,
+          "end": 19.78,
+          "probability": 0.9208432734012604
+        },
+        {
+          "word": " de",
+          "start": 19.78,
+          "end": 19.92,
+          "probability": 0.9844076633453369
+        },
+        {
+          "word": " la",
+          "start": 19.92,
+          "end": 20.02,
+          "probability": 0.9241440296173096
+        },
+        {
+          "word": " habitación",
+          "start": 20.02,
+          "end": 20.48,
+          "probability": 0.9910593628883362
+        },
+        {
+          "word": " todavía",
+          "start": 20.48,
+          "end": 20.98,
+          "probability": 0.9785560369491577
+        },
+        {
+          "word": " siguen",
+          "start": 20.98,
+          "end": 21.4,
+          "probability": 0.931926965713501
+        },
+        {
+          "word": " encendidas.",
+          "start": 21.4,
+          "end": 21.96,
+          "probability": 0.9777507185935974
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 22.66,
+      "end": 27.94,
+      "text": " Durante esos minutos finales estás despierto, pero nadie está guardando el archivo.",
+      "tokens": [
+        51488,
+        13710,
+        2879,
+        22411,
+        19421,
+        2572,
+        279,
+        24389,
+        4887,
+        20747,
+        11,
+        4768,
+        28060,
+        3192,
+        6290,
+        1806,
+        806,
+        3912,
+        6340,
+        13,
+        51772
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1789531541907269,
+      "compression_ratio": 1.5217391304347827,
+      "no_speech_prob": 0.01956791989505291,
+      "words": [
+        {
+          "word": " Durante",
+          "start": 22.66,
+          "end": 23.06,
+          "probability": 0.9913031160831451
+        },
+        {
+          "word": " esos",
+          "start": 23.06,
+          "end": 23.36,
+          "probability": 0.9805036783218384
+        },
+        {
+          "word": " minutos",
+          "start": 23.36,
+          "end": 23.68,
+          "probability": 0.9811371564865112
+        },
+        {
+          "word": " finales",
+          "start": 23.68,
+          "end": 24.34,
+          "probability": 0.9497429430484772
+        },
+        {
+          "word": " estás",
+          "start": 24.34,
+          "end": 24.8,
+          "probability": 0.7164223194122314
+        },
+        {
+          "word": " despierto,",
+          "start": 24.8,
+          "end": 25.38,
+          "probability": 0.9586138129234314
+        },
+        {
+          "word": " pero",
+          "start": 25.8,
+          "end": 26.0,
+          "probability": 0.995876133441925
+        },
+        {
+          "word": " nadie",
+          "start": 26.0,
+          "end": 26.52,
+          "probability": 0.9856357574462891
+        },
+        {
+          "word": " está",
+          "start": 26.52,
+          "end": 26.96,
+          "probability": 0.9757950901985168
+        },
+        {
+          "word": " guardando",
+          "start": 26.96,
+          "end": 27.4,
+          "probability": 0.9918726980686188
+        },
+        {
+          "word": " el",
+          "start": 27.4,
+          "end": 27.58,
+          "probability": 0.9952176809310913
+        },
+        {
+          "word": " archivo.",
+          "start": 27.58,
+          "end": 27.94,
+          "probability": 0.9939585328102112
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

@@ -1,0 +1,524 @@
+{
+  "text": " Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna. Una estructura cerebral con forma de caballito de mar, llamada y po campo. Durante todo el día, el hipocampo recibe todo lo que ves, huelles y sientes y lo va a archivando en la memoria a corto plazo como una cámara de seguridad encendida las 24 horas.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.46,
+      "text": " Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna.",
+      "tokens": [
+        50364,
+        11107,
+        20054,
+        4065,
+        26562,
+        1004,
+        11,
+        21289,
+        9914,
+        631,
+        3149,
+        289,
+        12826,
+        26210,
+        2604,
+        4444,
+        23020,
+        728,
+        629,
+        13,
+        50649
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2462273607350359,
+      "compression_ratio": 1.4661016949152543,
+      "no_speech_prob": 0.005136556923389435,
+      "words": [
+        {
+          "word": " Para",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9679213166236877
+        },
+        {
+          "word": " entender",
+          "start": 0.42,
+          "end": 0.86,
+          "probability": 0.9966691136360168
+        },
+        {
+          "word": " este",
+          "start": 0.86,
+          "end": 1.14,
+          "probability": 0.9850494265556335
+        },
+        {
+          "word": " misterio,",
+          "start": 1.14,
+          "end": 1.72,
+          "probability": 0.9846465289592743
+        },
+        {
+          "word": " primero",
+          "start": 2.04,
+          "end": 2.32,
+          "probability": 0.9708027839660645
+        },
+        {
+          "word": " tenemos",
+          "start": 2.32,
+          "end": 2.68,
+          "probability": 0.932723343372345
+        },
+        {
+          "word": " que",
+          "start": 2.68,
+          "end": 2.88,
+          "probability": 0.9984545707702637
+        },
+        {
+          "word": " mirar",
+          "start": 2.88,
+          "end": 3.16,
+          "probability": 0.9896657466888428
+        },
+        {
+          "word": " cómo",
+          "start": 3.16,
+          "end": 3.64,
+          "probability": 0.9493184685707092
+        },
+        {
+          "word": " funciona",
+          "start": 3.64,
+          "end": 4.2,
+          "probability": 0.9983640313148499
+        },
+        {
+          "word": " tu",
+          "start": 4.2,
+          "end": 4.42,
+          "probability": 0.9684865474700928
+        },
+        {
+          "word": " grabadora",
+          "start": 4.42,
+          "end": 4.84,
+          "probability": 0.9426066875457764
+        },
+        {
+          "word": " interna.",
+          "start": 4.84,
+          "end": 5.46,
+          "probability": 0.8632186949253082
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.0,
+      "end": 10.26,
+      "text": " Una estructura cerebral con forma de caballito de mar, llamada y po campo.",
+      "tokens": [
+        50649,
+        15491,
+        43935,
+        2991,
+        43561,
+        416,
+        8366,
+        368,
+        5487,
+        336,
+        3528,
+        368,
+        1849,
+        11,
+        16848,
+        1538,
+        288,
+        714,
+        29691,
+        13,
+        50901
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2462273607350359,
+      "compression_ratio": 1.4661016949152543,
+      "no_speech_prob": 0.005136556923389435,
+      "words": [
+        {
+          "word": " Una",
+          "start": 6.0,
+          "end": 6.24,
+          "probability": 0.9854938983917236
+        },
+        {
+          "word": " estructura",
+          "start": 6.24,
+          "end": 6.78,
+          "probability": 0.9980144202709198
+        },
+        {
+          "word": " cerebral",
+          "start": 6.78,
+          "end": 7.12,
+          "probability": 0.923837423324585
+        },
+        {
+          "word": " con",
+          "start": 7.12,
+          "end": 7.48,
+          "probability": 0.6188079714775085
+        },
+        {
+          "word": " forma",
+          "start": 7.48,
+          "end": 7.8,
+          "probability": 0.996802568435669
+        },
+        {
+          "word": " de",
+          "start": 7.8,
+          "end": 7.98,
+          "probability": 0.9974197149276733
+        },
+        {
+          "word": " caballito",
+          "start": 7.98,
+          "end": 8.5,
+          "probability": 0.9745854536692301
+        },
+        {
+          "word": " de",
+          "start": 8.5,
+          "end": 8.64,
+          "probability": 0.9662507176399231
+        },
+        {
+          "word": " mar,",
+          "start": 8.64,
+          "end": 8.8,
+          "probability": 0.9291714429855347
+        },
+        {
+          "word": " llamada",
+          "start": 9.04,
+          "end": 9.4,
+          "probability": 0.9875709414482117
+        },
+        {
+          "word": " y",
+          "start": 9.4,
+          "end": 9.72,
+          "probability": 0.6558601260185242
+        },
+        {
+          "word": " po",
+          "start": 9.72,
+          "end": 9.9,
+          "probability": 0.7707709670066833
+        },
+        {
+          "word": " campo.",
+          "start": 9.9,
+          "end": 10.26,
+          "probability": 0.32911941409111023
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.04,
+      "end": 16.36,
+      "text": " Durante todo el día, el hipocampo recibe todo lo que ves, huelles y sientes",
+      "tokens": [
+        50901,
+        13710,
+        2879,
+        5149,
+        806,
+        12271,
+        11,
+        806,
+        8103,
+        905,
+        335,
+        2259,
+        4214,
+        650,
+        5149,
+        450,
+        631,
+        28274,
+        11,
+        276,
+        13789,
+        279,
+        288,
+        262,
+        20135,
+        51199
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2462273607350359,
+      "compression_ratio": 1.4661016949152543,
+      "no_speech_prob": 0.005136556923389435,
+      "words": [
+        {
+          "word": " Durante",
+          "start": 11.04,
+          "end": 11.52,
+          "probability": 0.9926137626171112
+        },
+        {
+          "word": " todo",
+          "start": 11.52,
+          "end": 11.82,
+          "probability": 0.9973711967468262
+        },
+        {
+          "word": " el",
+          "start": 11.82,
+          "end": 12.06,
+          "probability": 0.9994340538978577
+        },
+        {
+          "word": " día,",
+          "start": 12.06,
+          "end": 12.3,
+          "probability": 0.9945629239082336
+        },
+        {
+          "word": " el",
+          "start": 12.7,
+          "end": 12.84,
+          "probability": 0.9950727820396423
+        },
+        {
+          "word": " hipocampo",
+          "start": 12.84,
+          "end": 13.38,
+          "probability": 0.680352445691824
+        },
+        {
+          "word": " recibe",
+          "start": 13.38,
+          "end": 13.76,
+          "probability": 0.9819067418575287
+        },
+        {
+          "word": " todo",
+          "start": 13.76,
+          "end": 14.1,
+          "probability": 0.9835901856422424
+        },
+        {
+          "word": " lo",
+          "start": 14.1,
+          "end": 14.34,
+          "probability": 0.9945293068885803
+        },
+        {
+          "word": " que",
+          "start": 14.34,
+          "end": 14.5,
+          "probability": 0.9985305070877075
+        },
+        {
+          "word": " ves,",
+          "start": 14.5,
+          "end": 14.72,
+          "probability": 0.7745808959007263
+        },
+        {
+          "word": " huelles",
+          "start": 15.26,
+          "end": 15.72,
+          "probability": 0.7394925554593405
+        },
+        {
+          "word": " y",
+          "start": 15.72,
+          "end": 15.92,
+          "probability": 0.9408016204833984
+        },
+        {
+          "word": " sientes",
+          "start": 15.92,
+          "end": 16.36,
+          "probability": 0.8079133331775665
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 16.36,
+      "end": 22.84,
+      "text": " y lo va a archivando en la memoria a corto plazo como una cámara de seguridad encendida las 24 horas.",
+      "tokens": [
+        51199,
+        288,
+        450,
+        2773,
+        257,
+        3912,
+        592,
+        1806,
+        465,
+        635,
+        1334,
+        8172,
+        257,
+        11278,
+        78,
+        499,
+        29722,
+        2617,
+        2002,
+        44273,
+        368,
+        35415,
+        2058,
+        521,
+        2887,
+        2439,
+        4022,
+        19548,
+        13,
+        51529
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2462273607350359,
+      "compression_ratio": 1.4661016949152543,
+      "no_speech_prob": 0.005136556923389435,
+      "words": [
+        {
+          "word": " y",
+          "start": 16.36,
+          "end": 16.98,
+          "probability": 0.29931870102882385
+        },
+        {
+          "word": " lo",
+          "start": 16.98,
+          "end": 17.06,
+          "probability": 0.9728748798370361
+        },
+        {
+          "word": " va",
+          "start": 17.06,
+          "end": 17.18,
+          "probability": 0.8949189782142639
+        },
+        {
+          "word": " a",
+          "start": 17.18,
+          "end": 17.26,
+          "probability": 0.3866845965385437
+        },
+        {
+          "word": " archivando",
+          "start": 17.26,
+          "end": 17.64,
+          "probability": 0.8372354308764139
+        },
+        {
+          "word": " en",
+          "start": 17.64,
+          "end": 17.8,
+          "probability": 0.9649853706359863
+        },
+        {
+          "word": " la",
+          "start": 17.8,
+          "end": 17.9,
+          "probability": 0.9972075819969177
+        },
+        {
+          "word": " memoria",
+          "start": 17.9,
+          "end": 18.28,
+          "probability": 0.9957404434680939
+        },
+        {
+          "word": " a",
+          "start": 18.28,
+          "end": 18.44,
+          "probability": 0.919973611831665
+        },
+        {
+          "word": " corto",
+          "start": 18.44,
+          "end": 18.74,
+          "probability": 0.847986489534378
+        },
+        {
+          "word": " plazo",
+          "start": 18.74,
+          "end": 19.1,
+          "probability": 0.955218106508255
+        },
+        {
+          "word": " como",
+          "start": 19.1,
+          "end": 19.56,
+          "probability": 0.7775453329086304
+        },
+        {
+          "word": " una",
+          "start": 19.56,
+          "end": 19.82,
+          "probability": 0.9906589984893799
+        },
+        {
+          "word": " cámara",
+          "start": 19.82,
+          "end": 20.2,
+          "probability": 0.9598808288574219
+        },
+        {
+          "word": " de",
+          "start": 20.2,
+          "end": 20.4,
+          "probability": 0.9987001419067383
+        },
+        {
+          "word": " seguridad",
+          "start": 20.4,
+          "end": 20.78,
+          "probability": 0.9959763884544373
+        },
+        {
+          "word": " encendida",
+          "start": 20.78,
+          "end": 21.5,
+          "probability": 0.9640683929125468
+        },
+        {
+          "word": " las",
+          "start": 21.5,
+          "end": 21.68,
+          "probability": 0.8906177282333374
+        },
+        {
+          "word": " 24",
+          "start": 21.68,
+          "end": 22.36,
+          "probability": 0.944980263710022
+        },
+        {
+          "word": " horas.",
+          "start": 22.36,
+          "end": 22.84,
+          "probability": 0.9921167492866516
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

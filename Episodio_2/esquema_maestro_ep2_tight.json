@@ -2,8 +2,8 @@
   "metadata": {
     "titulo": "Episodio 2: ¿Por Qué No Recuerdas Cuándo Te Quedas Dormido?",
     "duracion_objetivo": "5:00",
-    "duracion_total_segundos": 62.57,
-    "duracion_total_frames": 1877,
+    "duracion_total_segundos": 110.7,
+    "duracion_total_frames": 3321,
     "volumen_musica": 0.1,
     "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
     "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors",
@@ -1180,29 +1180,385 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna: una estructura cerebral con forma de caballito de mar llamada Hipocampo...",
+          "locucion_plano": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna...",
           "palabras_clave_plano": [
             "grabadora interna",
-            "Hipocampo"
+            "misterio"
           ],
-          "duracion_frames": 130,
+          "duracion_frames": 105,
           "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_3_p1.png",
-          "prompt": "Stylized cartoon cross-section of a glowing human brain, highlighting a golden seahorse-shaped organ named hippocampus with a gentle friendly glow. Niko points at it with a scientific pointer stick. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Niko señalando un holograma amigable del cerebro con un puntero"
         },
         {
           "id_plano": 2,
-          "locucion_plano": "...Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes, y lo va archivando en la memoria a corto plazo como una cámara de seguridad encendida las veinticuatro horas.",
+          "locucion_plano": "...una estructura cerebral con forma de caballito de mar llamada Hipocampo.",
           "palabras_clave_plano": [
-            "memoria a corto plazo",
-            "cámara de seguridad"
+            "Hipocampo",
+            "caballito de mar"
           ],
-          "duracion_frames": 140,
+          "duracion_frames": 100,
           "animacion": "paneo_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_3_p2.png",
-          "prompt": "Whimsical cartoon filing office inside the brain: cute little memory archivist workers organizing colorful glowing memory spheres into tall filing cabinets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Hipocampo dorado estilizado con forma de caballito de mar flotando en el cerebro"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes...",
+          "palabras_clave_plano": [
+            "lo que ves",
+            "hueles y sientes"
+          ],
+          "duracion_frames": 110,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p3.png",
+          "descripcion": "Esferas de memoria luminosas con iconos sensoriales fluyendo hacia la consola cerebral"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "...y lo va archivando en la memoria a corto plazo...",
+          "palabras_clave_plano": [
+            "memoria a corto plazo"
+          ],
+          "duracion_frames": 115,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p4.png",
+          "descripcion": "Archiveros cartoon organizando las esferas de memoria en archivadores futuristas"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "...como una cámara de seguridad...",
+          "palabras_clave_plano": [
+            "cámara de seguridad"
+          ],
+          "duracion_frames": 115,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p5.png",
+          "descripcion": "Cámara de seguridad retro-futurista con luz roja parpadeante de REC"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "...encendida las veinticuatro horas.",
+          "palabras_clave_plano": [
+            "veinticuatro horas"
+          ],
+          "duracion_frames": 111,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p6.png",
+          "descripcion": "Niko sonriente haciendo gesto de pulgar arriba junto al monitor de seguridad"
+        }
+      ],
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_3_tight.wav"
+      },
+      "duracion_frames": 656,
+      "duracion_segundos": 21.86,
+      "palabras": [
+        {
+          "w": "Para",
+          "s": 0.0,
+          "e": 0.42
+        },
+        {
+          "w": "entender",
+          "s": 0.42,
+          "e": 0.86
+        },
+        {
+          "w": "este",
+          "s": 0.86,
+          "e": 1.14
+        },
+        {
+          "w": "misterio,",
+          "s": 1.14,
+          "e": 1.72
+        },
+        {
+          "w": "primero",
+          "s": 1.97,
+          "e": 2.25
+        },
+        {
+          "w": "tenemos",
+          "s": 2.25,
+          "e": 2.61
+        },
+        {
+          "w": "que",
+          "s": 2.61,
+          "e": 2.81
+        },
+        {
+          "w": "mirar",
+          "s": 2.81,
+          "e": 3.09
+        },
+        {
+          "w": "cómo",
+          "s": 3.09,
+          "e": 3.57
+        },
+        {
+          "w": "funciona",
+          "s": 3.57,
+          "e": 4.13
+        },
+        {
+          "w": "tu",
+          "s": 4.13,
+          "e": 4.35
+        },
+        {
+          "w": "grabadora",
+          "s": 4.35,
+          "e": 4.77
+        },
+        {
+          "w": "interna.",
+          "s": 4.77,
+          "e": 5.39
+        },
+        {
+          "w": "Una",
+          "s": 5.64,
+          "e": 5.88
+        },
+        {
+          "w": "estructura",
+          "s": 5.88,
+          "e": 6.42
+        },
+        {
+          "w": "cerebral",
+          "s": 6.42,
+          "e": 6.76
+        },
+        {
+          "w": "con",
+          "s": 6.76,
+          "e": 7.12
+        },
+        {
+          "w": "forma",
+          "s": 7.12,
+          "e": 7.44
+        },
+        {
+          "w": "de",
+          "s": 7.44,
+          "e": 7.62
+        },
+        {
+          "w": "caballito",
+          "s": 7.62,
+          "e": 8.14
+        },
+        {
+          "w": "de",
+          "s": 8.14,
+          "e": 8.28
+        },
+        {
+          "w": "mar,",
+          "s": 8.28,
+          "e": 8.44
+        },
+        {
+          "w": "llamada",
+          "s": 8.68,
+          "e": 9.04
+        },
+        {
+          "w": "y",
+          "s": 9.04,
+          "e": 9.36
+        },
+        {
+          "w": "po",
+          "s": 9.36,
+          "e": 9.54
+        },
+        {
+          "w": "campo.",
+          "s": 9.54,
+          "e": 9.9
+        },
+        {
+          "w": "Durante",
+          "s": 10.15,
+          "e": 10.63
+        },
+        {
+          "w": "todo",
+          "s": 10.63,
+          "e": 10.93
+        },
+        {
+          "w": "el",
+          "s": 10.93,
+          "e": 11.17
+        },
+        {
+          "w": "día,",
+          "s": 11.17,
+          "e": 11.41
+        },
+        {
+          "w": "el",
+          "s": 11.66,
+          "e": 11.8
+        },
+        {
+          "w": "hipocampo",
+          "s": 11.8,
+          "e": 12.34
+        },
+        {
+          "w": "recibe",
+          "s": 12.34,
+          "e": 12.72
+        },
+        {
+          "w": "todo",
+          "s": 12.72,
+          "e": 13.06
+        },
+        {
+          "w": "lo",
+          "s": 13.06,
+          "e": 13.3
+        },
+        {
+          "w": "que",
+          "s": 13.3,
+          "e": 13.46
+        },
+        {
+          "w": "ves,",
+          "s": 13.46,
+          "e": 13.68
+        },
+        {
+          "w": "huelles",
+          "s": 13.93,
+          "e": 14.39
+        },
+        {
+          "w": "y",
+          "s": 14.39,
+          "e": 14.59
+        },
+        {
+          "w": "sientes",
+          "s": 14.59,
+          "e": 15.03
+        },
+        {
+          "w": "y",
+          "s": 15.03,
+          "e": 15.65
+        },
+        {
+          "w": "lo",
+          "s": 15.65,
+          "e": 15.73
+        },
+        {
+          "w": "va",
+          "s": 15.73,
+          "e": 15.85
+        },
+        {
+          "w": "a",
+          "s": 15.85,
+          "e": 15.93
+        },
+        {
+          "w": "archivando",
+          "s": 15.93,
+          "e": 16.31
+        },
+        {
+          "w": "en",
+          "s": 16.31,
+          "e": 16.47
+        },
+        {
+          "w": "la",
+          "s": 16.47,
+          "e": 16.57
+        },
+        {
+          "w": "memoria",
+          "s": 16.57,
+          "e": 16.95
+        },
+        {
+          "w": "a",
+          "s": 16.95,
+          "e": 17.11
+        },
+        {
+          "w": "corto",
+          "s": 17.11,
+          "e": 17.41
+        },
+        {
+          "w": "plazo",
+          "s": 17.41,
+          "e": 17.77
+        },
+        {
+          "w": "como",
+          "s": 17.77,
+          "e": 18.23
+        },
+        {
+          "w": "una",
+          "s": 18.23,
+          "e": 18.49
+        },
+        {
+          "w": "cámara",
+          "s": 18.49,
+          "e": 18.87
+        },
+        {
+          "w": "de",
+          "s": 18.87,
+          "e": 19.07
+        },
+        {
+          "w": "seguridad",
+          "s": 19.07,
+          "e": 19.45
+        },
+        {
+          "w": "encendida",
+          "s": 19.45,
+          "e": 20.17
+        },
+        {
+          "w": "las",
+          "s": 20.17,
+          "e": 20.35
+        },
+        {
+          "w": "24",
+          "s": 20.35,
+          "e": 21.03
+        },
+        {
+          "w": "horas.",
+          "s": 21.03,
+          "e": 21.51
         }
       ]
     },
@@ -1220,29 +1576,444 @@
       "planos": [
         {
           "id_plano": 1,
-          "locucion_plano": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso: el hipocampo no se duerme al mismo tiempo que el resto del cuerpo...",
+          "locucion_plano": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso...",
           "palabras_clave_plano": [
             "fenómeno asombroso",
-            "hipocampo"
+            "te metes a la cama"
           ],
-          "duracion_frames": 135,
-          "animacion": "flotar_suave",
+          "duracion_frames": 110,
+          "animacion": "zoom_in_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_4_p1.png",
-          "prompt": "Split laboratory visual: EEG brainwave sensors showing brain activity on digital monitors, while scientists in white coats observe a cartoon sleeping subject with fascinated expressions. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Niko sentado en la cama en pijama mirando al techo bajo la luz de la luna"
         },
         {
           "id_plano": 2,
-          "locucion_plano": "...Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento. Durante esos minutos finales, estás despierto, pero nadie está guardando el archivo.",
+          "locucion_plano": "...el hipocampo no se duerme al mismo tiempo que el resto del cuerpo.",
           "palabras_clave_plano": [
-            "se apaga antes",
-            "nadie está guardando"
+            "no se duerme",
+            "resto del cuerpo"
           ],
-          "duracion_frames": 150,
-          "animacion": "zoom_in_suave",
+          "duracion_frames": 115,
+          "animacion": "paneo_suave",
           "tipo_visual": "imagen_flux",
           "imagen": "assets/img/ep2_escena_4_p2.png",
-          "prompt": "Humorous metaphor: an old-fashioned film projector or video recorder on a table, with its REC red light clicking OFF while Niko in bed is still looking around drowsily. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+          "descripcion": "Corte transversal del cerebro: corteza iluminada y hipocampo apagándose en gris"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento.",
+          "palabras_clave_plano": [
+            "cuatro a diez minutos",
+            "ANTES"
+          ],
+          "duracion_frames": 120,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p3.png",
+          "descripcion": "Temporizador digital marcando 10:00 con un interruptor mecánico cambiando a OFF"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "Imagina que una cámara de seguridad deja de grabar...",
+          "palabras_clave_plano": [
+            "deja de grabar"
+          ],
+          "duracion_frames": 110,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p4.png",
+          "descripcion": "Lente de la cámara de seguridad donde la luz REC se apaga y la pantalla se apaga"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "...mientras las luces de la habitación todavía siguen encendidas.",
+          "palabras_clave_plano": [
+            "luces de la habitación",
+            "encendidas"
+          ],
+          "duracion_frames": 115,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p5.png",
+          "descripcion": "Vista amplia de la habitación pacífica con lámpara de noche encendida"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "Durante esos minutos finales, estás despierto...",
+          "palabras_clave_plano": [
+            "minutos finales",
+            "estás despierto"
+          ],
+          "duracion_frames": 110,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p6.png",
+          "descripcion": "Primer plano de Niko con la cabeza en la almohada y ojos somnolientos"
+        },
+        {
+          "id_plano": 7,
+          "locucion_plano": "...pero nadie está guardando el archivo.",
+          "palabras_clave_plano": [
+            "nadie está guardando"
+          ],
+          "duracion_frames": 108,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p7.png",
+          "descripcion": "Archivador de memoria con cartel de CERRADO y esferas disolviéndose en polvo de estrellas"
+        }
+      ],
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_4_tight.wav"
+      },
+      "duracion_frames": 788,
+      "duracion_segundos": 26.26,
+      "palabras": [
+        {
+          "w": "Pero",
+          "s": 0.0,
+          "e": 0.46
+        },
+        {
+          "w": "cuando",
+          "s": 0.46,
+          "e": 0.78
+        },
+        {
+          "w": "te",
+          "s": 0.78,
+          "e": 1.0
+        },
+        {
+          "w": "metes",
+          "s": 1.0,
+          "e": 1.26
+        },
+        {
+          "w": "a",
+          "s": 1.26,
+          "e": 1.4
+        },
+        {
+          "w": "la",
+          "s": 1.4,
+          "e": 1.5
+        },
+        {
+          "w": "cama,",
+          "s": 1.5,
+          "e": 1.76
+        },
+        {
+          "w": "los",
+          "s": 2.01,
+          "e": 2.11
+        },
+        {
+          "w": "científicos",
+          "s": 2.11,
+          "e": 2.79
+        },
+        {
+          "w": "descubrieron",
+          "s": 2.79,
+          "e": 3.41
+        },
+        {
+          "w": "un",
+          "s": 3.41,
+          "e": 3.73
+        },
+        {
+          "w": "fenómeno",
+          "s": 3.73,
+          "e": 4.25
+        },
+        {
+          "w": "asombroso.",
+          "s": 4.25,
+          "e": 5.09
+        },
+        {
+          "w": "El",
+          "s": 5.34,
+          "e": 5.54
+        },
+        {
+          "w": "hipocampo",
+          "s": 5.54,
+          "e": 6.22
+        },
+        {
+          "w": "no",
+          "s": 6.22,
+          "e": 6.64
+        },
+        {
+          "w": "se",
+          "s": 6.64,
+          "e": 6.88
+        },
+        {
+          "w": "duerme",
+          "s": 6.88,
+          "e": 7.18
+        },
+        {
+          "w": "al",
+          "s": 7.18,
+          "e": 7.34
+        },
+        {
+          "w": "mismo",
+          "s": 7.34,
+          "e": 7.6
+        },
+        {
+          "w": "tiempo",
+          "s": 7.6,
+          "e": 8.0
+        },
+        {
+          "w": "que",
+          "s": 8.0,
+          "e": 8.2
+        },
+        {
+          "w": "el",
+          "s": 8.2,
+          "e": 8.32
+        },
+        {
+          "w": "resto",
+          "s": 8.32,
+          "e": 8.58
+        },
+        {
+          "w": "del",
+          "s": 8.58,
+          "e": 8.78
+        },
+        {
+          "w": "cuerpo.",
+          "s": 8.78,
+          "e": 9.12
+        },
+        {
+          "w": "Se",
+          "s": 9.37,
+          "e": 9.63
+        },
+        {
+          "w": "apaga",
+          "s": 9.63,
+          "e": 10.01
+        },
+        {
+          "w": "de",
+          "s": 10.01,
+          "e": 10.27
+        },
+        {
+          "w": "4",
+          "s": 10.27,
+          "e": 10.77
+        },
+        {
+          "w": "a",
+          "s": 10.77,
+          "e": 11.05
+        },
+        {
+          "w": "10",
+          "s": 11.05,
+          "e": 11.41
+        },
+        {
+          "w": "minutos",
+          "s": 11.41,
+          "e": 11.73
+        },
+        {
+          "w": "antes",
+          "s": 11.73,
+          "e": 12.51
+        },
+        {
+          "w": "de",
+          "s": 12.51,
+          "e": 12.91
+        },
+        {
+          "w": "que",
+          "s": 12.91,
+          "e": 13.01
+        },
+        {
+          "w": "pierdas",
+          "s": 13.01,
+          "e": 13.39
+        },
+        {
+          "w": "el",
+          "s": 13.39,
+          "e": 13.57
+        },
+        {
+          "w": "conocimiento.",
+          "s": 13.57,
+          "e": 14.11
+        },
+        {
+          "w": "Imagina",
+          "s": 14.36,
+          "e": 14.88
+        },
+        {
+          "w": "que",
+          "s": 14.88,
+          "e": 15.06
+        },
+        {
+          "w": "una",
+          "s": 15.06,
+          "e": 15.26
+        },
+        {
+          "w": "cámara",
+          "s": 15.26,
+          "e": 15.56
+        },
+        {
+          "w": "de",
+          "s": 15.56,
+          "e": 15.76
+        },
+        {
+          "w": "seguridad",
+          "s": 15.76,
+          "e": 16.22
+        },
+        {
+          "w": "deja",
+          "s": 16.22,
+          "e": 16.8
+        },
+        {
+          "w": "de",
+          "s": 16.8,
+          "e": 16.96
+        },
+        {
+          "w": "grabar",
+          "s": 16.96,
+          "e": 17.34
+        },
+        {
+          "w": "mientras",
+          "s": 17.34,
+          "e": 17.72
+        },
+        {
+          "w": "las",
+          "s": 17.72,
+          "e": 18.06
+        },
+        {
+          "w": "luces",
+          "s": 18.06,
+          "e": 18.42
+        },
+        {
+          "w": "de",
+          "s": 18.42,
+          "e": 18.56
+        },
+        {
+          "w": "la",
+          "s": 18.56,
+          "e": 18.66
+        },
+        {
+          "w": "habitación",
+          "s": 18.66,
+          "e": 19.12
+        },
+        {
+          "w": "todavía",
+          "s": 19.12,
+          "e": 19.62
+        },
+        {
+          "w": "siguen",
+          "s": 19.62,
+          "e": 20.04
+        },
+        {
+          "w": "encendidas.",
+          "s": 20.04,
+          "e": 20.6
+        },
+        {
+          "w": "Durante",
+          "s": 20.85,
+          "e": 21.25
+        },
+        {
+          "w": "esos",
+          "s": 21.25,
+          "e": 21.55
+        },
+        {
+          "w": "minutos",
+          "s": 21.55,
+          "e": 21.87
+        },
+        {
+          "w": "finales",
+          "s": 21.87,
+          "e": 22.53
+        },
+        {
+          "w": "estás",
+          "s": 22.53,
+          "e": 22.99
+        },
+        {
+          "w": "despierto,",
+          "s": 22.99,
+          "e": 23.57
+        },
+        {
+          "w": "pero",
+          "s": 23.82,
+          "e": 24.02
+        },
+        {
+          "w": "nadie",
+          "s": 24.02,
+          "e": 24.54
+        },
+        {
+          "w": "está",
+          "s": 24.54,
+          "e": 24.98
+        },
+        {
+          "w": "guardando",
+          "s": 24.98,
+          "e": 25.42
+        },
+        {
+          "w": "el",
+          "s": 25.42,
+          "e": 25.6
+        },
+        {
+          "w": "archivo.",
+          "s": 25.6,
+          "e": 25.96
         }
       ]
     },

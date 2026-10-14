@@ -1,0 +1,2190 @@
+{
+  "metadata": {
+    "titulo": "Episodio 2: ¿Por Qué No Recuerdas Cuándo Te Quedas Dormido?",
+    "duracion_objetivo": "5:00",
+    "duracion_total_segundos": 102.6,
+    "duracion_total_frames": 3078,
+    "volumen_musica": 0.1,
+    "musica_fondo": "assets/audio/musica_fondo_lofi.wav",
+    "estilo_visual": "2D flat cartoon illustration style, clean lines, flat shading, vibrant colors",
+    "sfx": {
+      "whoosh": "assets/sfx/whoosh.wav",
+      "pop": "assets/sfx/pop.wav",
+      "ding": "assets/sfx/ding.wav",
+      "volumen": 0.35
+    }
+  },
+  "escenas": [
+    {
+      "id": 1,
+      "acto": 1,
+      "titulo_acto": "El Gran Vaciado Nocturno",
+      "locucion": "Seguro te ha pasado alguna vez. Estás acostado, mirando el techo a oscuras. Escuchas el reloj o el silencio de la casa y te dices a ti mismo: 'Esta noche voy a prestar atención. Voy a descubrir el segundo exacto en que me duermo'. Cierras los ojos, sientes la almohada, respiras hondo... y de repente suena la alarma. Ya es de día. Entre las once y media de la noche y las siete de la mañana hay un vacío absoluto. No viste venir el sueño, no sentiste el cambio y no recuerdas nada.",
+      "palabras_clave": [
+        "mirando el techo",
+        "prestar atención",
+        "suena la alarma",
+        "vacío absoluto"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Seguro te ha pasado alguna vez.",
+          "palabras_clave_plano": [
+            "Seguro te ha pasado"
+          ],
+          "duracion_frames": 62,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p1.png",
+          "descripcion": "Niko en la cama de noche mirando arriba pensativo"
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "Estás acostado, mirando el techo a oscuras.",
+          "palabras_clave_plano": [
+            "mirando el techo"
+          ],
+          "duracion_frames": 94,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_pov_techo.png",
+          "descripcion": "POV subjetivo mirando el techo a oscuras con sombras de árboles"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Escuchas el reloj o el silencio de la casa...",
+          "palabras_clave_plano": [
+            "Escuchas el reloj"
+          ],
+          "duracion_frames": 86,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_reloj_noche.png",
+          "descripcion": "Macro reloj analógico de noche marcando 11:42 PM"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "...y te dices a ti mismo: Esta noche voy a prestar atención.",
+          "palabras_clave_plano": [
+            "prestar atención"
+          ],
+          "duracion_frames": 107,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p2.png",
+          "descripcion": "Niko en pijama mirando de reojo al reloj con determinación cómica"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "Voy a descubrir el segundo exacto en que me duermo.",
+          "palabras_clave_plano": [
+            "segundo exacto"
+          ],
+          "duracion_frames": 93,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_ojos_alerta.png",
+          "descripcion": "Macro ojos de Niko hiper-enfocados en misión secreta"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "Cierras los ojos...",
+          "palabras_clave_plano": [
+            "Cierras los ojos"
+          ],
+          "duracion_frames": 43,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_cerrando_ojos.png",
+          "descripcion": "Macro párpados cerrándose lentamente en calma"
+        },
+        {
+          "id_plano": 7,
+          "locucion_plano": "...sientes la almohada, respiras hondo...",
+          "palabras_clave_plano": [
+            "sientes la almohada",
+            "respiras hondo"
+          ],
+          "duracion_frames": 75,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p3.png",
+          "descripcion": "Niko dormido plácidamente en la almohada"
+        },
+        {
+          "id_plano": 8,
+          "locucion_plano": "...y de repente suena la alarma!",
+          "palabras_clave_plano": [
+            "suena la alarma"
+          ],
+          "duracion_frames": 71,
+          "animacion": "sacudida",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_reloj_sonando.png",
+          "descripcion": "Macro alarma roja vibrando violentamente con campanas limpias"
+        },
+        {
+          "id_plano": 9,
+          "locucion_plano": "Ya es de día.",
+          "palabras_clave_plano": [
+            "Ya es de día"
+          ],
+          "duracion_frames": 15,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p4.png",
+          "descripcion": "Niko sentado sobresaltado en pijama con explosión de sol"
+        },
+        {
+          "id_plano": 10,
+          "locucion_plano": "Entre las once y media de la noche y las siete de la mañana...",
+          "palabras_clave_plano": [
+            "once y media",
+            "siete de la mañana"
+          ],
+          "duracion_frames": 139,
+          "animacion": "vectorial",
+          "tipo_visual": "componente_vectorial",
+          "componente": "SleepVoidTimeline",
+          "descripcion": "Infografía vectorial nítida en Remotion de la línea temporal 11:30 a 07:00"
+        },
+        {
+          "id_plano": 11,
+          "locucion_plano": "...hay un vacío absoluto.",
+          "palabras_clave_plano": [
+            "vacío absoluto"
+          ],
+          "duracion_frames": 62,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p5.png",
+          "descripcion": "Niko en pijama al borde de la cama rascándose la cabeza perplejo"
+        },
+        {
+          "id_plano": 12,
+          "locucion_plano": "No viste venir el sueño, no sentiste el cambio...",
+          "palabras_clave_plano": [
+            "no sentiste el cambio"
+          ],
+          "duracion_frames": 85,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_niko_desconcierto.png",
+          "descripcion": "Niko con brazos abiertos desconcertado a cámara"
+        },
+        {
+          "id_plano": 13,
+          "locucion_plano": "...y no recuerdas nada.",
+          "palabras_clave_plano": [
+            "no recuerdas nada"
+          ],
+          "duracion_frames": 47,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p12_a.png",
+          "descripcion": "Niko en pijama frotándose los ojos con luz matutina perplejo"
+        },
+        {
+          "id_plano": 14,
+          "locucion_plano": "No es que te hayas distraído...",
+          "palabras_clave_plano": [
+            "distraído"
+          ],
+          "duracion_frames": 46,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_p6.png",
+          "descripcion": "Niko viendo el holograma del cerebro con candado rojo"
+        },
+        {
+          "id_plano": 15,
+          "locucion_plano": "...tu cerebro tiene una orden biológica estricta de borrar ese momento cada noche.",
+          "palabras_clave_plano": [
+            "orden biológica",
+            "borrar ese momento"
+          ],
+          "duracion_frames": 15,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_candado_zoom.png",
+          "descripcion": "Detalle macro del candado biológico bloqueando el recuerdo"
+        },
+        {
+          "id_plano": 16,
+          "locucion_plano": "¿Por qué?",
+          "palabras_clave_plano": [
+            "Por qué"
+          ],
+          "duracion_frames": 20,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_1_candado_zoom.png",
+          "descripcion": "Zoom dramático al candado del cerebro con signos ?"
+        }
+      ],
+      "duracion_segundos": 33.25,
+      "duracion_frames": 998,
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_1_tight_tight.wav"
+      },
+      "palabras": [
+        {
+          "w": "Seguro",
+          "s": 0.0,
+          "e": 0.7
+        },
+        {
+          "w": "te",
+          "s": 0.7,
+          "e": 0.84
+        },
+        {
+          "w": "ha",
+          "s": 0.84,
+          "e": 0.92
+        },
+        {
+          "w": "pasado",
+          "s": 0.92,
+          "e": 1.2
+        },
+        {
+          "w": "alguna",
+          "s": 1.2,
+          "e": 1.54
+        },
+        {
+          "w": "vez.",
+          "s": 1.54,
+          "e": 1.82
+        },
+        {
+          "w": "Estás",
+          "s": 2.07,
+          "e": 2.35
+        },
+        {
+          "w": "acostado,",
+          "s": 2.35,
+          "e": 3.13
+        },
+        {
+          "w": "mirando",
+          "s": 3.38,
+          "e": 3.68
+        },
+        {
+          "w": "el",
+          "s": 3.68,
+          "e": 3.88
+        },
+        {
+          "w": "techo",
+          "s": 3.88,
+          "e": 4.26
+        },
+        {
+          "w": "a",
+          "s": 4.26,
+          "e": 4.4
+        },
+        {
+          "w": "oscuras.",
+          "s": 4.4,
+          "e": 4.94
+        },
+        {
+          "w": "Escuchas",
+          "s": 5.19,
+          "e": 5.63
+        },
+        {
+          "w": "el",
+          "s": 5.63,
+          "e": 5.81
+        },
+        {
+          "w": "reloj",
+          "s": 5.81,
+          "e": 6.49
+        },
+        {
+          "w": "o",
+          "s": 6.49,
+          "e": 6.63
+        },
+        {
+          "w": "el",
+          "s": 6.63,
+          "e": 6.81
+        },
+        {
+          "w": "silencio",
+          "s": 6.81,
+          "e": 7.23
+        },
+        {
+          "w": "de",
+          "s": 7.23,
+          "e": 7.35
+        },
+        {
+          "w": "la",
+          "s": 7.35,
+          "e": 7.49
+        },
+        {
+          "w": "casa,",
+          "s": 7.49,
+          "e": 7.83
+        },
+        {
+          "w": "y",
+          "s": 8.08,
+          "e": 8.14
+        },
+        {
+          "w": "te",
+          "s": 8.14,
+          "e": 8.28
+        },
+        {
+          "w": "dices",
+          "s": 8.28,
+          "e": 8.52
+        },
+        {
+          "w": "a",
+          "s": 8.52,
+          "e": 8.7
+        },
+        {
+          "w": "ti",
+          "s": 8.7,
+          "e": 8.82
+        },
+        {
+          "w": "mismo.",
+          "s": 8.82,
+          "e": 9.14
+        },
+        {
+          "w": "Esta",
+          "s": 9.39,
+          "e": 9.73
+        },
+        {
+          "w": "noche",
+          "s": 9.73,
+          "e": 10.09
+        },
+        {
+          "w": "voy",
+          "s": 10.09,
+          "e": 10.45
+        },
+        {
+          "w": "a",
+          "s": 10.45,
+          "e": 10.63
+        },
+        {
+          "w": "prestar",
+          "s": 10.63,
+          "e": 10.97
+        },
+        {
+          "w": "atención.",
+          "s": 10.97,
+          "e": 11.37
+        },
+        {
+          "w": "Voy",
+          "s": 11.62,
+          "e": 11.72
+        },
+        {
+          "w": "a",
+          "s": 11.72,
+          "e": 11.88
+        },
+        {
+          "w": "descubrir",
+          "s": 11.88,
+          "e": 12.34
+        },
+        {
+          "w": "el",
+          "s": 12.34,
+          "e": 12.54
+        },
+        {
+          "w": "segundo",
+          "s": 12.54,
+          "e": 13.04
+        },
+        {
+          "w": "exacto",
+          "s": 13.04,
+          "e": 13.84
+        },
+        {
+          "w": "en",
+          "s": 13.84,
+          "e": 13.92
+        },
+        {
+          "w": "que",
+          "s": 13.92,
+          "e": 14.02
+        },
+        {
+          "w": "me",
+          "s": 14.02,
+          "e": 14.16
+        },
+        {
+          "w": "duermo.",
+          "s": 14.16,
+          "e": 14.5
+        },
+        {
+          "w": "Cierras",
+          "s": 14.75,
+          "e": 15.25
+        },
+        {
+          "w": "los",
+          "s": 15.25,
+          "e": 15.45
+        },
+        {
+          "w": "ojos,",
+          "s": 15.45,
+          "e": 15.91
+        },
+        {
+          "w": "sientes",
+          "s": 16.16,
+          "e": 16.36
+        },
+        {
+          "w": "la",
+          "s": 16.36,
+          "e": 16.6
+        },
+        {
+          "w": "almohada,",
+          "s": 16.6,
+          "e": 17.18
+        },
+        {
+          "w": "respiras",
+          "s": 17.43,
+          "e": 17.91
+        },
+        {
+          "w": "hondo,",
+          "s": 17.91,
+          "e": 18.43
+        },
+        {
+          "w": "y",
+          "s": 18.68,
+          "e": 18.92
+        },
+        {
+          "w": "de",
+          "s": 18.92,
+          "e": 19.04
+        },
+        {
+          "w": "repente",
+          "s": 19.04,
+          "e": 19.5
+        },
+        {
+          "w": "suena",
+          "s": 19.5,
+          "e": 20.3
+        },
+        {
+          "w": "la",
+          "s": 20.3,
+          "e": 20.46
+        },
+        {
+          "w": "alarma.",
+          "s": 20.46,
+          "e": 20.78
+        },
+        {
+          "w": "Ya",
+          "s": 21.03,
+          "e": 21.21
+        },
+        {
+          "w": "es",
+          "s": 21.21,
+          "e": 21.35
+        },
+        {
+          "w": "de",
+          "s": 21.35,
+          "e": 21.43
+        },
+        {
+          "w": "día.",
+          "s": 21.43,
+          "e": 21.65
+        },
+        {
+          "w": "Entre",
+          "s": 21.65,
+          "e": 22.75
+        },
+        {
+          "w": "la",
+          "s": 22.75,
+          "e": 22.93
+        },
+        {
+          "w": "11",
+          "s": 22.93,
+          "e": 23.15
+        },
+        {
+          "w": "y",
+          "s": 23.15,
+          "e": 23.43
+        },
+        {
+          "w": "media",
+          "s": 23.43,
+          "e": 23.63
+        },
+        {
+          "w": "de",
+          "s": 23.63,
+          "e": 23.85
+        },
+        {
+          "w": "la",
+          "s": 23.85,
+          "e": 23.97
+        },
+        {
+          "w": "noche",
+          "s": 23.97,
+          "e": 24.31
+        },
+        {
+          "w": "y",
+          "s": 24.31,
+          "e": 24.53
+        },
+        {
+          "w": "la",
+          "s": 24.53,
+          "e": 24.69
+        },
+        {
+          "w": "7",
+          "s": 24.69,
+          "e": 24.95
+        },
+        {
+          "w": "de",
+          "s": 24.95,
+          "e": 25.19
+        },
+        {
+          "w": "la",
+          "s": 25.19,
+          "e": 25.31
+        },
+        {
+          "w": "mañana,",
+          "s": 25.31,
+          "e": 25.65
+        },
+        {
+          "w": "hay",
+          "s": 25.9,
+          "e": 26.06
+        },
+        {
+          "w": "un",
+          "s": 26.06,
+          "e": 26.22
+        },
+        {
+          "w": "vacío",
+          "s": 26.22,
+          "e": 26.62
+        },
+        {
+          "w": "absoluto.",
+          "s": 26.62,
+          "e": 27.38
+        },
+        {
+          "w": "No",
+          "s": 27.63,
+          "e": 27.87
+        },
+        {
+          "w": "viste",
+          "s": 27.87,
+          "e": 28.15
+        },
+        {
+          "w": "venir",
+          "s": 28.15,
+          "e": 28.41
+        },
+        {
+          "w": "el",
+          "s": 28.41,
+          "e": 28.63
+        },
+        {
+          "w": "sueño,",
+          "s": 28.63,
+          "e": 29.07
+        },
+        {
+          "w": "no",
+          "s": 29.32,
+          "e": 29.42
+        },
+        {
+          "w": "sentiste",
+          "s": 29.42,
+          "e": 29.9
+        },
+        {
+          "w": "el",
+          "s": 29.9,
+          "e": 30.12
+        },
+        {
+          "w": "cambio,",
+          "s": 30.12,
+          "e": 30.46
+        },
+        {
+          "w": "y",
+          "s": 30.71,
+          "e": 30.79
+        },
+        {
+          "w": "no",
+          "s": 30.79,
+          "e": 30.97
+        },
+        {
+          "w": "recuerdas",
+          "s": 30.97,
+          "e": 31.53
+        },
+        {
+          "w": "nada.",
+          "s": 31.53,
+          "e": 32.05
+        },
+        {
+          "w": "No",
+          "s": 32.3,
+          "e": 32.54
+        },
+        {
+          "w": "es",
+          "s": 32.54,
+          "e": 32.7
+        },
+        {
+          "w": "que",
+          "s": 32.7,
+          "e": 32.8
+        },
+        {
+          "w": "te",
+          "s": 32.8,
+          "e": 32.92
+        },
+        {
+          "w": "hayas",
+          "s": 32.92,
+          "e": 33.18
+        },
+        {
+          "w": "distraído.",
+          "s": 33.18,
+          "e": 33.72
+        },
+        {
+          "w": "Tu",
+          "s": 33.97,
+          "e": 34.07
+        },
+        {
+          "w": "cerebro",
+          "s": 34.07,
+          "e": 34.45
+        },
+        {
+          "w": "tiene",
+          "s": 34.45,
+          "e": 34.69
+        },
+        {
+          "w": "una",
+          "s": 34.69,
+          "e": 34.99
+        },
+        {
+          "w": "orden",
+          "s": 34.99,
+          "e": 35.27
+        },
+        {
+          "w": "biológica",
+          "s": 35.27,
+          "e": 36.01
+        },
+        {
+          "w": "estricta",
+          "s": 36.01,
+          "e": 36.69
+        },
+        {
+          "w": "de",
+          "s": 36.69,
+          "e": 36.81
+        },
+        {
+          "w": "borrar",
+          "s": 36.81,
+          "e": 37.21
+        },
+        {
+          "w": "ese",
+          "s": 37.21,
+          "e": 37.49
+        },
+        {
+          "w": "momento",
+          "s": 37.49,
+          "e": 37.77
+        },
+        {
+          "w": "cada",
+          "s": 37.77,
+          "e": 38.27
+        },
+        {
+          "w": "noche.",
+          "s": 38.27,
+          "e": 38.75
+        },
+        {
+          "w": "¿Por",
+          "s": 32.59,
+          "e": 32.59
+        },
+        {
+          "w": "qué?",
+          "s": 32.59,
+          "e": 32.59
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "acto": 1,
+      "titulo_acto": "El Gran Vaciado Nocturno",
+      "locucion": "Si te tropiezas por la calle, tu mente recuerda el tropiezo. Si te quemas con una taza caliente, recuerdas el dolor al instante. Tu memoria es implacable registrando peligros y errores. Pero ese puente exacto entre estar despierto y estar inconsciente es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+      "palabras_clave": [
+        "recuerda el tropiezo",
+        "memoria implacable",
+        "único recuerdo",
+        "terminantemente prohibido"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Si te tropiezas por la calle, tu mente recuerda el tropiezo.",
+          "palabras_clave_plano": [
+            "recuerda el tropiezo"
+          ],
+          "duracion_frames": 123,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p1.png",
+          "descripcion": "Niko tropezándose cómicamente con una piedra en la acera"
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "Si te quemas con una taza caliente, recuerdas el dolor al instante.",
+          "palabras_clave_plano": [
+            "taza caliente",
+            "recuerdas el dolor"
+          ],
+          "duracion_frames": 118,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p2.png",
+          "descripcion": "Niko reaccionando cómicamente soplando una taza humeante"
+        },
+        {
+          "id_plano": 3,
+          "locucion_plano": "Tu memoria es implacable registrando peligros y errores.",
+          "palabras_clave_plano": [
+            "memoria implacable",
+            "peligros y errores"
+          ],
+          "duracion_frames": 123,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p3.png",
+          "descripcion": "Archivo mental con archivadores y esferas de alertas de peligro"
+        },
+        {
+          "id_plano": 4,
+          "locucion_plano": "Pero ese puente exacto entre estar despierto...",
+          "palabras_clave_plano": [
+            "puente exacto",
+            "estar despierto"
+          ],
+          "duracion_frames": 104,
+          "animacion": "paneo_suave",
+          "punch_in": true,
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p4_a.png",
+          "descripcion": "Vista panorámica del borde de la ciudad consciente sobre el abismo de sueños"
+        },
+        {
+          "id_plano": 5,
+          "locucion_plano": "...y estar inconsciente...",
+          "palabras_clave_plano": [
+            "inconsciente"
+          ],
+          "duracion_frames": 46,
+          "animacion": "zoom_in_suave",
+          "punch_in": true,
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p4.png",
+          "descripcion": "Puente neuronal luminoso cruzando hacia niebla violeta del sueño"
+        },
+        {
+          "id_plano": 6,
+          "locucion_plano": "...es el único recuerdo que la evolución te tiene terminantemente prohibido guardar.",
+          "palabras_clave_plano": [
+            "único recuerdo",
+            "terminantemente prohibido"
+          ],
+          "duracion_frames": 122,
+          "animacion": "zoom_in_suave",
+          "punch_in": true,
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_2_p5.png",
+          "descripcion": "Niko al borde del puente mirando al vacío con candado holográfico de prohibición"
+        }
+      ],
+      "duracion_frames": 636,
+      "duracion_segundos": 21.19,
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_2_tight_tight.wav"
+      },
+      "palabras": [
+        {
+          "w": "Si",
+          "s": 0.0,
+          "e": 0.42
+        },
+        {
+          "w": "te",
+          "s": 0.42,
+          "e": 0.56
+        },
+        {
+          "w": "tropiezas",
+          "s": 0.56,
+          "e": 1.1
+        },
+        {
+          "w": "por",
+          "s": 1.1,
+          "e": 1.3
+        },
+        {
+          "w": "la",
+          "s": 1.3,
+          "e": 1.44
+        },
+        {
+          "w": "calle,",
+          "s": 1.44,
+          "e": 1.72
+        },
+        {
+          "w": "tu",
+          "s": 1.97,
+          "e": 2.03
+        },
+        {
+          "w": "mente",
+          "s": 2.03,
+          "e": 2.25
+        },
+        {
+          "w": "recuerda",
+          "s": 2.25,
+          "e": 3.03
+        },
+        {
+          "w": "al",
+          "s": 3.03,
+          "e": 3.13
+        },
+        {
+          "w": "tropieso.",
+          "s": 3.13,
+          "e": 3.69
+        },
+        {
+          "w": "Si",
+          "s": 3.94,
+          "e": 4.1
+        },
+        {
+          "w": "te",
+          "s": 4.1,
+          "e": 4.26
+        },
+        {
+          "w": "quemas",
+          "s": 4.26,
+          "e": 4.58
+        },
+        {
+          "w": "con",
+          "s": 4.58,
+          "e": 4.76
+        },
+        {
+          "w": "una",
+          "s": 4.76,
+          "e": 4.92
+        },
+        {
+          "w": "tasa",
+          "s": 4.92,
+          "e": 5.18
+        },
+        {
+          "w": "caliente,",
+          "s": 5.18,
+          "e": 5.72
+        },
+        {
+          "w": "recuerdas",
+          "s": 5.97,
+          "e": 6.49
+        },
+        {
+          "w": "el",
+          "s": 6.49,
+          "e": 6.69
+        },
+        {
+          "w": "dolor",
+          "s": 6.69,
+          "e": 6.89
+        },
+        {
+          "w": "al",
+          "s": 6.89,
+          "e": 7.11
+        },
+        {
+          "w": "instante.",
+          "s": 7.11,
+          "e": 7.77
+        },
+        {
+          "w": "Tu",
+          "s": 8.02,
+          "e": 8.2
+        },
+        {
+          "w": "memoria",
+          "s": 8.2,
+          "e": 8.6
+        },
+        {
+          "w": "es",
+          "s": 8.6,
+          "e": 8.84
+        },
+        {
+          "w": "implacable,",
+          "s": 8.84,
+          "e": 9.76
+        },
+        {
+          "w": "registrando",
+          "s": 9.98,
+          "e": 10.5
+        },
+        {
+          "w": "peligros",
+          "s": 10.5,
+          "e": 11.12
+        },
+        {
+          "w": "y",
+          "s": 11.12,
+          "e": 11.44
+        },
+        {
+          "w": "errores.",
+          "s": 11.44,
+          "e": 11.9
+        },
+        {
+          "w": "Pero",
+          "s": 12.15,
+          "e": 12.45
+        },
+        {
+          "w": "ese",
+          "s": 12.45,
+          "e": 12.69
+        },
+        {
+          "w": "puente",
+          "s": 12.69,
+          "e": 13.25
+        },
+        {
+          "w": "exacto,",
+          "s": 13.25,
+          "e": 14.23
+        },
+        {
+          "w": "entre",
+          "s": 14.43,
+          "e": 14.63
+        },
+        {
+          "w": "estar",
+          "s": 14.63,
+          "e": 14.91
+        },
+        {
+          "w": "despierto",
+          "s": 14.91,
+          "e": 15.61
+        },
+        {
+          "w": "y",
+          "s": 15.61,
+          "e": 15.93
+        },
+        {
+          "w": "estar",
+          "s": 15.93,
+          "e": 16.15
+        },
+        {
+          "w": "inconsciente,",
+          "s": 16.15,
+          "e": 16.87
+        },
+        {
+          "w": "es",
+          "s": 17.12,
+          "e": 17.24
+        },
+        {
+          "w": "el",
+          "s": 17.24,
+          "e": 17.42
+        },
+        {
+          "w": "único",
+          "s": 17.42,
+          "e": 17.8
+        },
+        {
+          "w": "recuerdo",
+          "s": 17.8,
+          "e": 18.54
+        },
+        {
+          "w": "que",
+          "s": 18.54,
+          "e": 18.68
+        },
+        {
+          "w": "la",
+          "s": 18.68,
+          "e": 18.82
+        },
+        {
+          "w": "evolución",
+          "s": 18.82,
+          "e": 19.26
+        },
+        {
+          "w": "te",
+          "s": 19.26,
+          "e": 19.48
+        },
+        {
+          "w": "tiene",
+          "s": 19.48,
+          "e": 19.72
+        },
+        {
+          "w": "terminantemente",
+          "s": 19.72,
+          "e": 20.94
+        },
+        {
+          "w": "prohibido",
+          "s": 20.94,
+          "e": 21.19
+        },
+        {
+          "w": "guardar.",
+          "s": 21.19,
+          "e": 21.19
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "acto": 2,
+      "titulo_acto": "La Grabadora que se Apaga",
+      "locucion": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna: una estructura cerebral con forma de caballito de mar llamada Hipocampo. Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes, y lo va archivando en la memoria a corto plazo como una cámara de seguridad encendida las veinticuatro horas.",
+      "palabras_clave": [
+        "grabadora interna",
+        "Hipocampo",
+        "memoria a corto plazo",
+        "cámara de seguridad"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Para entender este misterio, primero tenemos que mirar cómo funciona tu grabadora interna: una estructura cerebral con forma de caballito de mar llamada Hipocampo...",
+          "palabras_clave_plano": [
+            "grabadora interna",
+            "Hipocampo"
+          ],
+          "duracion_frames": 304,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p1.png",
+          "prompt": "Stylized cartoon cross-section of a glowing human brain, highlighting a golden seahorse-shaped organ named hippocampus with a gentle friendly glow. Niko points at it with a scientific pointer stick. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Durante todo el día, el hipocampo recibe todo lo que ves, hueles y sientes, y lo va archivando en la memoria a corto plazo como una cámara de seguridad encendida las veinticuatro horas.",
+          "palabras_clave_plano": [
+            "memoria a corto plazo",
+            "cámara de seguridad"
+          ],
+          "duracion_frames": 352,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_3_p2.png",
+          "prompt": "Whimsical cartoon filing office inside the brain: cute little memory archivist workers organizing colorful glowing memory spheres into tall filing cabinets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ],
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_3_tight.wav"
+      },
+      "palabras": [
+        {
+          "w": "Para",
+          "s": 0.0,
+          "e": 0.42
+        },
+        {
+          "w": "entender",
+          "s": 0.42,
+          "e": 0.86
+        },
+        {
+          "w": "este",
+          "s": 0.86,
+          "e": 1.14
+        },
+        {
+          "w": "misterio,",
+          "s": 1.14,
+          "e": 1.72
+        },
+        {
+          "w": "primero",
+          "s": 1.97,
+          "e": 2.25
+        },
+        {
+          "w": "tenemos",
+          "s": 2.25,
+          "e": 2.61
+        },
+        {
+          "w": "que",
+          "s": 2.61,
+          "e": 2.81
+        },
+        {
+          "w": "mirar",
+          "s": 2.81,
+          "e": 3.09
+        },
+        {
+          "w": "cómo",
+          "s": 3.09,
+          "e": 3.57
+        },
+        {
+          "w": "funciona",
+          "s": 3.57,
+          "e": 4.13
+        },
+        {
+          "w": "tu",
+          "s": 4.13,
+          "e": 4.35
+        },
+        {
+          "w": "grabadora",
+          "s": 4.35,
+          "e": 4.77
+        },
+        {
+          "w": "interna.",
+          "s": 4.77,
+          "e": 5.39
+        },
+        {
+          "w": "Una",
+          "s": 5.64,
+          "e": 5.88
+        },
+        {
+          "w": "estructura",
+          "s": 5.88,
+          "e": 6.42
+        },
+        {
+          "w": "cerebral",
+          "s": 6.42,
+          "e": 6.76
+        },
+        {
+          "w": "con",
+          "s": 6.76,
+          "e": 7.12
+        },
+        {
+          "w": "forma",
+          "s": 7.12,
+          "e": 7.44
+        },
+        {
+          "w": "de",
+          "s": 7.44,
+          "e": 7.62
+        },
+        {
+          "w": "caballito",
+          "s": 7.62,
+          "e": 8.14
+        },
+        {
+          "w": "de",
+          "s": 8.14,
+          "e": 8.28
+        },
+        {
+          "w": "mar,",
+          "s": 8.28,
+          "e": 8.44
+        },
+        {
+          "w": "llamada",
+          "s": 8.68,
+          "e": 9.04
+        },
+        {
+          "w": "y",
+          "s": 9.04,
+          "e": 9.36
+        },
+        {
+          "w": "po",
+          "s": 9.36,
+          "e": 9.54
+        },
+        {
+          "w": "campo.",
+          "s": 9.54,
+          "e": 9.9
+        },
+        {
+          "w": "Durante",
+          "s": 10.15,
+          "e": 10.63
+        },
+        {
+          "w": "todo",
+          "s": 10.63,
+          "e": 10.93
+        },
+        {
+          "w": "el",
+          "s": 10.93,
+          "e": 11.17
+        },
+        {
+          "w": "día,",
+          "s": 11.17,
+          "e": 11.41
+        },
+        {
+          "w": "el",
+          "s": 11.66,
+          "e": 11.8
+        },
+        {
+          "w": "hipocampo",
+          "s": 11.8,
+          "e": 12.34
+        },
+        {
+          "w": "recibe",
+          "s": 12.34,
+          "e": 12.72
+        },
+        {
+          "w": "todo",
+          "s": 12.72,
+          "e": 13.06
+        },
+        {
+          "w": "lo",
+          "s": 13.06,
+          "e": 13.3
+        },
+        {
+          "w": "que",
+          "s": 13.3,
+          "e": 13.46
+        },
+        {
+          "w": "ves,",
+          "s": 13.46,
+          "e": 13.68
+        },
+        {
+          "w": "huelles",
+          "s": 13.93,
+          "e": 14.39
+        },
+        {
+          "w": "y",
+          "s": 14.39,
+          "e": 14.59
+        },
+        {
+          "w": "sientes",
+          "s": 14.59,
+          "e": 15.03
+        },
+        {
+          "w": "y",
+          "s": 15.03,
+          "e": 15.65
+        },
+        {
+          "w": "lo",
+          "s": 15.65,
+          "e": 15.73
+        },
+        {
+          "w": "va",
+          "s": 15.73,
+          "e": 15.85
+        },
+        {
+          "w": "a",
+          "s": 15.85,
+          "e": 15.93
+        },
+        {
+          "w": "archivando",
+          "s": 15.93,
+          "e": 16.31
+        },
+        {
+          "w": "en",
+          "s": 16.31,
+          "e": 16.47
+        },
+        {
+          "w": "la",
+          "s": 16.47,
+          "e": 16.57
+        },
+        {
+          "w": "memoria",
+          "s": 16.57,
+          "e": 16.95
+        },
+        {
+          "w": "a",
+          "s": 16.95,
+          "e": 17.11
+        },
+        {
+          "w": "corto",
+          "s": 17.11,
+          "e": 17.41
+        },
+        {
+          "w": "plazo",
+          "s": 17.41,
+          "e": 17.77
+        },
+        {
+          "w": "como",
+          "s": 17.77,
+          "e": 18.23
+        },
+        {
+          "w": "una",
+          "s": 18.23,
+          "e": 18.49
+        },
+        {
+          "w": "cámara",
+          "s": 18.49,
+          "e": 18.87
+        },
+        {
+          "w": "de",
+          "s": 18.87,
+          "e": 19.07
+        },
+        {
+          "w": "seguridad",
+          "s": 19.07,
+          "e": 19.45
+        },
+        {
+          "w": "encendida",
+          "s": 19.45,
+          "e": 20.17
+        },
+        {
+          "w": "las",
+          "s": 20.17,
+          "e": 20.35
+        },
+        {
+          "w": "24",
+          "s": 20.35,
+          "e": 21.03
+        },
+        {
+          "w": "horas.",
+          "s": 21.03,
+          "e": 21.51
+        }
+      ],
+      "duracion_segundos": 21.86,
+      "duracion_frames": 656
+    },
+    {
+      "id": 4,
+      "acto": 2,
+      "titulo_acto": "La Grabadora que se Apaga",
+      "locucion": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso: el hipocampo no se duerme al mismo tiempo que el resto del cuerpo. Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento. Imagina que una cámara de seguridad deja de grabar mientras las luces de la habitación todavía siguen encendidas. Durante esos minutos finales, estás despierto, pero nadie está guardando el archivo.",
+      "palabras_clave": [
+        "fenómeno asombroso",
+        "se apaga antes",
+        "deja de grabar",
+        "nadie está guardando"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Pero cuando te metes a la cama, los científicos descubrieron un fenómeno asombroso: el hipocampo no se duerme al mismo tiempo que el resto del cuerpo...",
+          "palabras_clave_plano": [
+            "fenómeno asombroso",
+            "hipocampo"
+          ],
+          "duracion_frames": 431,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p1.png",
+          "prompt": "Split laboratory visual: EEG brainwave sensors showing brain activity on digital monitors, while scientists in white coats observe a cartoon sleeping subject with fascinated expressions. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Se apaga de cuatro a diez minutos ANTES de que pierdas el conocimiento. Durante esos minutos finales, estás despierto, pero nadie está guardando el archivo.",
+          "palabras_clave_plano": [
+            "se apaga antes",
+            "nadie está guardando"
+          ],
+          "duracion_frames": 357,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_4_p2.png",
+          "prompt": "Humorous metaphor: an old-fashioned film projector or video recorder on a table, with its REC red light clicking OFF while Niko in bed is still looking around drowsily. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ],
+      "archivos_generados": {
+        "audio_tts": "assets/audio/voz_puck_ep2_escena_4_tight.wav"
+      },
+      "palabras": [
+        {
+          "w": "Pero",
+          "s": 0.0,
+          "e": 0.46
+        },
+        {
+          "w": "cuando",
+          "s": 0.46,
+          "e": 0.78
+        },
+        {
+          "w": "te",
+          "s": 0.78,
+          "e": 1.0
+        },
+        {
+          "w": "metes",
+          "s": 1.0,
+          "e": 1.26
+        },
+        {
+          "w": "a",
+          "s": 1.26,
+          "e": 1.4
+        },
+        {
+          "w": "la",
+          "s": 1.4,
+          "e": 1.5
+        },
+        {
+          "w": "cama,",
+          "s": 1.5,
+          "e": 1.76
+        },
+        {
+          "w": "los",
+          "s": 2.01,
+          "e": 2.11
+        },
+        {
+          "w": "científicos",
+          "s": 2.11,
+          "e": 2.79
+        },
+        {
+          "w": "descubrieron",
+          "s": 2.79,
+          "e": 3.41
+        },
+        {
+          "w": "un",
+          "s": 3.41,
+          "e": 3.73
+        },
+        {
+          "w": "fenómeno",
+          "s": 3.73,
+          "e": 4.25
+        },
+        {
+          "w": "asombroso.",
+          "s": 4.25,
+          "e": 5.09
+        },
+        {
+          "w": "El",
+          "s": 5.34,
+          "e": 5.54
+        },
+        {
+          "w": "hipocampo",
+          "s": 5.54,
+          "e": 6.22
+        },
+        {
+          "w": "no",
+          "s": 6.22,
+          "e": 6.64
+        },
+        {
+          "w": "se",
+          "s": 6.64,
+          "e": 6.88
+        },
+        {
+          "w": "duerme",
+          "s": 6.88,
+          "e": 7.18
+        },
+        {
+          "w": "al",
+          "s": 7.18,
+          "e": 7.34
+        },
+        {
+          "w": "mismo",
+          "s": 7.34,
+          "e": 7.6
+        },
+        {
+          "w": "tiempo",
+          "s": 7.6,
+          "e": 8.0
+        },
+        {
+          "w": "que",
+          "s": 8.0,
+          "e": 8.2
+        },
+        {
+          "w": "el",
+          "s": 8.2,
+          "e": 8.32
+        },
+        {
+          "w": "resto",
+          "s": 8.32,
+          "e": 8.58
+        },
+        {
+          "w": "del",
+          "s": 8.58,
+          "e": 8.78
+        },
+        {
+          "w": "cuerpo.",
+          "s": 8.78,
+          "e": 9.12
+        },
+        {
+          "w": "Se",
+          "s": 9.37,
+          "e": 9.63
+        },
+        {
+          "w": "apaga",
+          "s": 9.63,
+          "e": 10.01
+        },
+        {
+          "w": "de",
+          "s": 10.01,
+          "e": 10.27
+        },
+        {
+          "w": "4",
+          "s": 10.27,
+          "e": 10.77
+        },
+        {
+          "w": "a",
+          "s": 10.77,
+          "e": 11.05
+        },
+        {
+          "w": "10",
+          "s": 11.05,
+          "e": 11.41
+        },
+        {
+          "w": "minutos",
+          "s": 11.41,
+          "e": 11.73
+        },
+        {
+          "w": "antes",
+          "s": 11.73,
+          "e": 12.51
+        },
+        {
+          "w": "de",
+          "s": 12.51,
+          "e": 12.91
+        },
+        {
+          "w": "que",
+          "s": 12.91,
+          "e": 13.01
+        },
+        {
+          "w": "pierdas",
+          "s": 13.01,
+          "e": 13.39
+        },
+        {
+          "w": "el",
+          "s": 13.39,
+          "e": 13.57
+        },
+        {
+          "w": "conocimiento.",
+          "s": 13.57,
+          "e": 14.11
+        },
+        {
+          "w": "Imagina",
+          "s": 14.36,
+          "e": 14.88
+        },
+        {
+          "w": "que",
+          "s": 14.88,
+          "e": 15.06
+        },
+        {
+          "w": "una",
+          "s": 15.06,
+          "e": 15.26
+        },
+        {
+          "w": "cámara",
+          "s": 15.26,
+          "e": 15.56
+        },
+        {
+          "w": "de",
+          "s": 15.56,
+          "e": 15.76
+        },
+        {
+          "w": "seguridad",
+          "s": 15.76,
+          "e": 16.22
+        },
+        {
+          "w": "deja",
+          "s": 16.22,
+          "e": 16.8
+        },
+        {
+          "w": "de",
+          "s": 16.8,
+          "e": 16.96
+        },
+        {
+          "w": "grabar",
+          "s": 16.96,
+          "e": 17.34
+        },
+        {
+          "w": "mientras",
+          "s": 17.34,
+          "e": 17.72
+        },
+        {
+          "w": "las",
+          "s": 17.72,
+          "e": 18.06
+        },
+        {
+          "w": "luces",
+          "s": 18.06,
+          "e": 18.42
+        },
+        {
+          "w": "de",
+          "s": 18.42,
+          "e": 18.56
+        },
+        {
+          "w": "la",
+          "s": 18.56,
+          "e": 18.66
+        },
+        {
+          "w": "habitación",
+          "s": 18.66,
+          "e": 19.12
+        },
+        {
+          "w": "todavía",
+          "s": 19.12,
+          "e": 19.62
+        },
+        {
+          "w": "siguen",
+          "s": 19.62,
+          "e": 20.04
+        },
+        {
+          "w": "encendidas.",
+          "s": 20.04,
+          "e": 20.6
+        },
+        {
+          "w": "Durante",
+          "s": 20.85,
+          "e": 21.25
+        },
+        {
+          "w": "esos",
+          "s": 21.25,
+          "e": 21.55
+        },
+        {
+          "w": "minutos",
+          "s": 21.55,
+          "e": 21.87
+        },
+        {
+          "w": "finales",
+          "s": 21.87,
+          "e": 22.53
+        },
+        {
+          "w": "estás",
+          "s": 22.53,
+          "e": 22.99
+        },
+        {
+          "w": "despierto,",
+          "s": 22.99,
+          "e": 23.57
+        },
+        {
+          "w": "pero",
+          "s": 23.82,
+          "e": 24.02
+        },
+        {
+          "w": "nadie",
+          "s": 24.02,
+          "e": 24.54
+        },
+        {
+          "w": "está",
+          "s": 24.54,
+          "e": 24.98
+        },
+        {
+          "w": "guardando",
+          "s": 24.98,
+          "e": 25.42
+        },
+        {
+          "w": "el",
+          "s": 25.42,
+          "e": 25.6
+        },
+        {
+          "w": "archivo.",
+          "s": 25.6,
+          "e": 25.96
+        }
+      ],
+      "duracion_segundos": 26.26,
+      "duracion_frames": 788
+    },
+    {
+      "id": 5,
+      "acto": 3,
+      "titulo_acto": "La Cascada de la Conciencia",
+      "locucion": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente. Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+      "palabras_clave": [
+        "el Tálamo",
+        "estación de trenes",
+        "cierra las puertas",
+        "desconectó los cables"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "El segundo responsable es el Tálamo, la gran estación de trenes sensorial de tu cabeza. Cada sonido de la calle, cada roce de la sábana y cada sombra pasa por el tálamo antes de llegar a tu mente consciente...",
+          "palabras_clave_plano": [
+            "el Tálamo",
+            "estación de trenes"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p1.png",
+          "prompt": "Futuristic cartoon central control tower inside the brain with glowing sensory pathways labeled by soundwaves, light rays, and touch signals arriving from outside. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Para que puedas dormirte, el tálamo cierra las puertas y corta todas las vías de entrada exterior. Tus ojos se cierran, pero en realidad fue tu cerebro el que desconectó los cables.",
+          "palabras_clave_plano": [
+            "cierra las puertas",
+            "desconectó los cables"
+          ],
+          "duracion_frames": 140,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_5_p2.png",
+          "prompt": "Huge stylized vault doors closing smoothly with a soft golden mechanical lock, shutting off sensory signals. Niko watches with a peaceful smile as the outside noise fades away. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "acto": 3,
+      "titulo_acto": "La Cascada de la Conciencia",
+      "locucion": "En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta. Tus pensamientos pierden la lógica, tus músculos se relajan por completo y tu cerebro sufre una micro desconexión. Y si esa transición ocurre demasiado rápido, tu cuerpo interpreta erróneamente que te estás cayendo al vacío y lanza una sacudida violenta: la famosa sacudida hípnica.",
+      "palabras_clave": [
+        "fase N1",
+        "ondas Alfa",
+        "ondas Theta",
+        "sacudida hípnica"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "En ese momento exacto entras en la fase N1, una rampa resbaladiza donde tus ondas cerebrales cambian de las rápidas ondas Alfa a las lentas y profundas ondas Theta...",
+          "palabras_clave_plano": [
+            "fase N1",
+            "ondas Alfa",
+            "ondas Theta"
+          ],
+          "duracion_frames": 145,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p1.png",
+          "prompt": "Colorful educational diagram showing wavy rhythmic brainwave lines shifting smoothly from rapid electric blue waves to deep purple slow oceanic waves. Niko slides down a fun glowing slide between them. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Tus pensamientos pierden la lógica, tus músculos se relajan y si la transición es muy rápida, tu cuerpo cree que caes al vacío: la famosa sacudida hípnica.",
+          "palabras_clave_plano": [
+            "caes al vacío",
+            "sacudida hípnica"
+          ],
+          "duracion_frames": 145,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_6_p2.png",
+          "prompt": "Comical dramatic shot: Niko dreaming he is falling off a cliff in space, suddenly twitching and kicking in bed in exaggerated cartoon surprise, clutching the blankets. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Pero la pregunta más profunda sigue en pie: ¿Por qué la evolución construyó este sistema tan extraño? ¿Por qué no simplemente mantenernos conscientes hasta el último segundo? La respuesta no está en tu cómoda habitación moderna. Está hace cientos de miles de años, bajo las estrellas de la sabana africana.",
+      "palabras_clave": [
+        "evolución",
+        "sistema tan extraño",
+        "sabana africana",
+        "cientos de miles de años"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Pero la pregunta más profunda sigue en pie: ¿Por qué la evolución construyó este sistema tan extraño? ¿Por qué no simplemente mantenernos conscientes hasta el último segundo?...",
+          "palabras_clave_plano": [
+            "evolución",
+            "sistema tan extraño"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_7_p1.png",
+          "prompt": "Niko standing under a starry night sky, holding a warm wooden walking staff, looking curiously towards the distant horizon. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...La respuesta no está en tu cómoda habitación moderna. Está hace cientos de miles de años, bajo las estrellas de la sabana africana.",
+          "palabras_clave_plano": [
+            "habitación moderna",
+            "sabana africana"
+          ],
+          "duracion_frames": 135,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_7_p2.png",
+          "prompt": "Cinematic wide transition shot: the modern bedroom wall dissolves into a sweeping prehistoric African savannah landscape at night under a giant glowing moon and thousands of stars. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Para nuestros primeros ancestros, la noche era el momento más peligroso de la existencia. Era la hora de caza de felinos con visión nocturna, hienas gigantes y serpientes venenosas. Si un homínido sentía conscientemente cómo sus músculos se paralizaban uno por uno, el instinto natural habría sido el pánico: gritar, resistirse, moverse y delatar la posición de toda la tribu ante los depredadores.",
+      "palabras_clave": [
+        "momento más peligroso",
+        "visión nocturna",
+        "depredadores",
+        "instinto de pánico"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Para nuestros primeros ancestros, la noche era el momento más peligroso de la existencia. Era la hora de caza de felinos con visión nocturna, hienas gigantes y serpientes venenosas...",
+          "palabras_clave_plano": [
+            "momento más peligroso",
+            "visión nocturna"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_8_p1.png",
+          "prompt": "A tribe of prehistoric humans huddled closely around a crackling campfire in a rock shelter at night, while yellow glowing predator eyes peer from the dark tall grass in the background. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Si un homínido sentía conscientemente cómo sus músculos se paralizaban, el instinto habría sido el pánico: gritar, resistirse y delatar a toda la tribu ante los depredadores.",
+          "palabras_clave_plano": [
+            "músculos se paralizaban",
+            "instinto de pánico"
+          ],
+          "duracion_frames": 140,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_8_p2.png",
+          "prompt": "Dramatic close-up of a prehistoric human sleeping peacefully beside the fire without flinching, protected by the silence of the night. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "acto": 4,
+      "titulo_acto": "La Noche en la Sabana",
+      "locucion": "Además, los humanos nunca dormíamos ocho horas seguidas como hoy. Existía el Sueño de los Centinelas: en una tribu primitiva de veinte personas, los ancianos, jóvenes y adultos tenían relojes biológicos distintos. Siempre había alguien despierto vigilando el fuego y turnándose para descansar. Borrar el momento de transición permitía que el relevo fuera silencioso, rápido e imperceptible.",
+      "palabras_clave": [
+        "ocho horas seguidas",
+        "Sueño de los Centinelas",
+        "relojes biológicos",
+        "vigilando el fuego"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Además, los humanos nunca dormíamos ocho horas seguidas como hoy. Existía el Sueño de los Centinelas: en una tribu de veinte personas, todos tenían relojes biológicos distintos...",
+          "palabras_clave_plano": [
+            "ocho horas seguidas",
+            "Sueño de los Centinelas"
+          ],
+          "duracion_frames": 140,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_9_p1.png",
+          "prompt": "A wise elder caveman sitting vigilantly beside the glowing embers of a night fire holding a torch, while other members of the tribe sleep peacefully wrapped in animal pelts. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Siempre había alguien despierto vigilando el fuego y turnándose para descansar. Borrar el momento de transición permitía que el relevo fuera silencioso, rápido e imperceptible.",
+          "palabras_clave_plano": [
+            "vigilando el fuego",
+            "relevo silencioso"
+          ],
+          "duracion_frames": 140,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_9_p2.png",
+          "prompt": "Smooth change of watch: a young hunter gently taking over the watch by the campfire under the starry canopy, peaceful nocturnal atmosphere. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "acto": 5,
+      "titulo_acto": "El Regalo del Olvido",
+      "locucion": "Al final, no poder recordar el segundo en que te duermes no es una falla de tu memoria. Es una obra maestra de la evolución humana: una cápsula de anestesia natural que tu cerebro administra cada noche para protegerte de la vulnerabilidad, silenciar tus sentidos y permitirte reiniciar tu mente para un nuevo día.",
+      "palabras_clave": [
+        "no es una falla",
+        "obra maestra",
+        "anestesia natural",
+        "reiniciar tu mente"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Al final, no poder recordar el segundo en que te duermes no es una falla de tu memoria. Es una obra maestra de la evolución humana...",
+          "palabras_clave_plano": [
+            "no es una falla",
+            "obra maestra"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_10_p1.png",
+          "prompt": "Beautiful symbolic illustration of human consciousness: glowing soft starry constellations forming the shape of a serene sleeping human silhouette. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...una cápsula de anestesia natural que tu cerebro administra cada noche para protegerte de la vulnerabilidad, silenciar tus sentidos y permitirte reiniciar tu mente para un nuevo día.",
+          "palabras_clave_plano": [
+            "anestesia natural",
+            "reiniciar tu mente"
+          ],
+          "duracion_frames": 145,
+          "animacion": "paneo_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_10_p2.png",
+          "prompt": "Boy Niko in his cozy bed with a warm happy smile, sleeping peacefully under soft blankets with gentle breathing rhythm. Moonlight through the window, soothing peaceful atmosphere. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "acto": 5,
+      "titulo_acto": "El Regalo del Olvido",
+      "locucion": "Así que esta noche, cuando apoyes la cabeza en la almohada y sientas que tus pensamientos empiezan a flotar... no intentes atraparlo. Déjate llevar por el apagón. Porque mientras tú descansas, millones de años de evolución están cuidando de ti.",
+      "palabras_clave": [
+        "apoyes la cabeza",
+        "no intentes atraparlo",
+        "déjate llevar",
+        "millones de años"
+      ],
+      "planos": [
+        {
+          "id_plano": 1,
+          "locucion_plano": "Así que esta noche, cuando apoyes la cabeza en la almohada y sientas que tus pensamientos empiezan a flotar... no intentes atraparlo. Déjate llevar por el apagón...",
+          "palabras_clave_plano": [
+            "apoyes la cabeza",
+            "déjate llevar"
+          ],
+          "duracion_frames": 135,
+          "animacion": "zoom_in_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_11_p1.png",
+          "prompt": "Boy Niko looking out his bedroom window at the glowing full moon with a thoughtful appreciative smile, ready to rest. Messy teal hair, green vest. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        },
+        {
+          "id_plano": 2,
+          "locucion_plano": "...Porque mientras tú descansas, millones de años de evolución están cuidando de ti.",
+          "palabras_clave_plano": [
+            "mientras tú descansas",
+            "cuidando de ti"
+          ],
+          "duracion_frames": 145,
+          "animacion": "flotar_suave",
+          "tipo_visual": "imagen_flux",
+          "imagen": "assets/img/ep2_escena_11_p2.png",
+          "prompt": "Warm heartwarming closing shot of Niko in bed smiling with his thumb up, drifting off into peaceful dreams with dreamy floating stars and soothing night clouds. 2D flat cartoon illustration style, clean lines, flat shading, vibrant colors, NO text, NO letters, NO words."
+        }
+      ]
+    }
+  ]
+}
